@@ -1,0 +1,112 @@
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<div>
+    <label><input type="radio" name="control" value="plan" checked> Plan</label>
+    <label><input type="radio" name="control" value="eff"> Eff</label>
+    <label><input type="radio" name="control" value="both"> Both</label>
+</div>
+
+<div id="playbar"></div>
+
+<script>
+    const width = 500, height = 30;
+    const svg = d3.select('#playbar').append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+    // Background bar
+    svg.append('rect')
+        .attr('width', width)
+        .attr('height', 10)
+        .attr('y', 10)
+        .attr('fill', '#ccc');
+
+    // Values (0-100)
+    let valuePlan = 0;
+    let valueEff = 0;
+
+    // Create Plan thumb
+    const thumbPlan = svg.append('circle')
+        .attr('r', 8)
+        .attr('cx', 0)
+        .attr('cy', 15)
+        .attr('fill', '#ff5722');
+
+    // Create Eff thumb
+    const thumbEff = svg.append('circle')
+        .attr('r', 8)
+        .attr('cx', 0)
+        .attr('cy', 15)
+        .attr('fill', '#432722');
+
+    // Create drag behavior for both thumbs
+    const dragPlan = d3.drag().on('drag', function (event) {
+        
+            let x = Math.max(0, Math.min(width, event.x));
+            d3.select(this).attr('cx', x);
+            valuePlan = (x / width) * 100;
+            console.log('Plan Index:', Math.round(valuePlan));
+        
+    });
+
+    const dragEff = d3.drag().on('drag', function (event) {
+        
+            let x = Math.max(0, Math.min(width, event.x));
+            d3.select(this).attr('cx', x);
+            valueEff = (x / width) * 100;
+            console.log('Eff Index:', Math.round(valueEff));
+        
+    });
+
+    const dragBoth = d3.drag().on('drag', function (event) {
+        
+            let x = Math.max(0, Math.min(width, event.x));
+            d3.select(this).attr('cx', x);
+            valueEff = (x / width) * 100;
+            valuePlan = (x / width) * 100;
+            thumbEff.attr('cx', x);  // Ensure Eff thumb also moves
+            thumbPlan.attr('cx', x); // Ensure Plan thumb also moves
+        
+    });
+
+    // Apply drag behavior to thumbs
+    thumbPlan.call(dragPlan);
+    thumbEff.call(dragEff);
+
+    // Apply drag behavior for both thumbs when "both" is selected
+    d3.selectAll('input[name="control"]').on('change', function () {
+        const selectedValue = this.value;
+        if (selectedValue === 'plan') {
+            thumbPlan.call(dragPlan); // Enable dragging for Plan thumb
+            thumbEff.on('.drag', null); // Disable dragging for Eff thumb
+        } else if (selectedValue === 'eff') {
+            thumbEff.call(dragEff); // Enable dragging for Eff thumb
+            thumbPlan.on('.drag', null); // Disable dragging for Plan thumb
+        } else if (selectedValue === 'both') {
+            thumbPlan.call(dragBoth); // Enable dragging for both thumbs
+            thumbEff.call(dragBoth);
+        }
+    });
+    // Add click listener to jump the thumbs when the user clicks on the bar
+    svg.on('click', function(event) {
+            const [x] = d3.pointer(event); // Get the x coordinate of the click
+            const selectedValue = document.querySelector('input[name="control"]:checked').value;
+
+            if (selectedValue === 'plan' || selectedValue === 'both') {
+                // Move the Plan thumb to the clicked position
+                thumbPlan.attr('cx', x);
+                valuePlan = (x / width) * 100;
+                console.log('Plan Index (Jumped):', Math.round(valuePlan));
+            }
+
+            if (selectedValue === 'eff' || selectedValue === 'both') {
+                // Move the Eff thumb to the clicked position
+                thumbEff.attr('cx', x);
+                valueEff = (x / width) * 100;
+                console.log('Eff Index (Jumped):', Math.round(valueEff));
+            }
+        });
+
+    // Example: start animation
+    // setInterval(updatePlaybarPlan, 100);
+    // setInterval(updatePlaybarEff, 200);
+</script>

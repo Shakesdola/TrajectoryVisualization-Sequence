@@ -1,0 +1,717 @@
+[
+    {
+        "plan_ordinal": 1,
+        "eff_ordinal": 1,
+        "plan_time": "2024-10-17 09:54:13",
+        "eff_time": "2024-10-17 10:28:26",
+        "plan_time_upper": "2024-10-17 10:09:13",
+        "plan_time_lower": "2024-10-17 09:39:13",
+        "coordinates": [
+            7.8838542932,
+            46.2916077965
+        ],
+        "identcode": 996000648204620958
+    },
+    {
+        "plan_ordinal": 2,
+        "eff_ordinal": 2,
+        "plan_time": "2024-10-17 09:59:17",
+        "eff_time": "2024-10-17 10:31:13",
+        "plan_time_upper": "2024-10-17 10:14:17",
+        "plan_time_lower": "2024-10-17 09:44:17",
+        "coordinates": [
+            7.8843670406,
+            46.291151495
+        ],
+        "identcode": 993711122202962927
+    },
+    {
+        "plan_ordinal": 3,
+        "eff_ordinal": 3,
+        "plan_time": "2024-10-17 10:01:50",
+        "eff_time": "2024-10-17 10:33:24",
+        "plan_time_upper": "2024-10-17 10:16:50",
+        "plan_time_lower": "2024-10-17 09:46:50",
+        "coordinates": [
+            7.8847953652,
+            46.2911624036
+        ],
+        "identcode": 996012328600507889
+    },
+    {
+        "plan_ordinal": 4,
+        "eff_ordinal": 4,
+        "plan_time": "2024-10-17 10:01:50",
+        "eff_time": "2024-10-17 10:33:33",
+        "plan_time_upper": "2024-10-17 10:16:50",
+        "plan_time_lower": "2024-10-17 09:46:50",
+        "coordinates": [
+            7.8847953652,
+            46.2911624036
+        ],
+        "identcode": 994210310604149278
+    },
+    {
+        "plan_ordinal": 5,
+        "eff_ordinal": 5,
+        "plan_time": "2024-10-17 10:01:50",
+        "eff_time": "2024-10-17 10:33:57",
+        "plan_time_upper": "2024-10-17 10:16:50",
+        "plan_time_lower": "2024-10-17 09:46:50",
+        "coordinates": [
+            7.8847953652,
+            46.2911624036
+        ],
+        "identcode": 990030002101085257
+    },
+    {
+        "plan_ordinal": 6,
+        "eff_ordinal": 6,
+        "plan_time": "2024-10-17 10:01:50",
+        "eff_time": "2024-10-17 10:34:03",
+        "plan_time_upper": "2024-10-17 10:16:50",
+        "plan_time_lower": "2024-10-17 09:46:50",
+        "coordinates": [
+            7.8847953652,
+            46.2911624036
+        ],
+        "identcode": 996015276701037877
+    },
+    {
+        "plan_ordinal": 7,
+        "eff_ordinal": 7,
+        "plan_time": "2024-10-17 10:04:20",
+        "eff_time": "2024-10-17 10:35:16",
+        "plan_time_upper": "2024-10-17 10:19:20",
+        "plan_time_lower": "2024-10-17 09:49:20",
+        "coordinates": [
+            7.88466313,
+            46.2913365424
+        ],
+        "identcode": 994010486050857748
+    },
+    {
+        "plan_ordinal": 8,
+        "eff_ordinal": 8,
+        "plan_time": "2024-10-17 10:04:20",
+        "eff_time": "2024-10-17 10:35:58",
+        "plan_time_upper": "2024-10-17 10:19:20",
+        "plan_time_lower": "2024-10-17 09:49:20",
+        "coordinates": [
+            7.88466313,
+            46.2913365424
+        ],
+        "identcode": 996002075397423588
+    },
+    {
+        "plan_ordinal": 9,
+        "eff_ordinal": 11,
+        "plan_time": "2024-10-17 10:06:53",
+        "eff_time": "2024-10-17 10:39:22",
+        "plan_time_upper": "2024-10-17 10:21:53",
+        "plan_time_lower": "2024-10-17 09:51:53",
+        "coordinates": [
+            7.8849353844,
+            46.2916215358
+        ],
+        "identcode": 996014383197376099
+    },
+    {
+        "plan_ordinal": 10,
+        "eff_ordinal": 12,
+        "plan_time": "2024-10-17 10:06:53",
+        "eff_time": "2024-10-17 10:40:30",
+        "plan_time_upper": "2024-10-17 10:21:53",
+        "plan_time_lower": "2024-10-17 09:51:53",
+        "coordinates": [
+            7.8849353844,
+            46.2916215358
+        ],
+        "identcode": 996002075397406681
+    },
+    {
+        "plan_ordinal": 11,
+        "eff_ordinal": 9,
+        "plan_time": "2024-10-17 10:09:49",
+        "eff_time": "2024-10-17 10:38:41",
+        "plan_time_upper": "2024-10-17 10:24:49",
+        "plan_time_lower": "2024-10-17 09:54:49",
+        "coordinates": [
+            7.8849493932,
+            46.2915890959
+        ],
+        "identcode": 996015500100054373
+    },
+    {
+        "plan_ordinal": 12,
+        "eff_ordinal": 10,
+        "plan_time": "2024-10-17 10:09:49",
+        "eff_time": "2024-10-17 10:38:48",
+        "plan_time_upper": "2024-10-17 10:24:49",
+        "plan_time_lower": "2024-10-17 09:54:49",
+        "coordinates": [
+            7.8849493932,
+            46.2915890959
+        ],
+        "identcode": 996015264800006807
+    },
+    {
+        "plan_ordinal": 13,
+        "eff_ordinal": 52,
+        "plan_time": "2024-10-17 10:14:14",
+        "eff_time": "2024-10-17 12:38:28",
+        "plan_time_upper": "2024-10-17 10:29:14",
+        "plan_time_lower": "2024-10-17 09:59:14",
+        "coordinates": [
+            7.8840290736,
+            46.2926686099
+        ],
+        "identcode": 993711048200196398
+    },
+    {
+        "plan_ordinal": 14,
+        "eff_ordinal": 53,
+        "plan_time": "2024-10-17 10:14:14",
+        "eff_time": "2024-10-17 12:38:49",
+        "plan_time_upper": "2024-10-17 10:29:14",
+        "plan_time_lower": "2024-10-17 09:59:14",
+        "coordinates": [
+            7.8840290736,
+            46.2926686099
+        ],
+        "identcode": 996011578511263882
+    },
+    {
+        "plan_ordinal": 15,
+        "eff_ordinal": 54,
+        "plan_time": "2024-10-17 10:14:14",
+        "eff_time": "2024-10-17 12:39:13",
+        "plan_time_upper": "2024-10-17 10:29:14",
+        "plan_time_lower": "2024-10-17 09:59:14",
+        "coordinates": [
+            7.8840290736,
+            46.2926686099
+        ],
+        "identcode": 994212690910905869
+    },
+    {
+        "plan_ordinal": 16,
+        "eff_ordinal": 50,
+        "plan_time": "2024-10-17 10:18:46",
+        "eff_time": "2024-10-17 12:32:42",
+        "plan_time_upper": "2024-10-17 10:33:46",
+        "plan_time_lower": "2024-10-17 10:03:46",
+        "coordinates": [
+            7.8843150129,
+            46.2931982358
+        ],
+        "identcode": 996008777300724328
+    },
+    {
+        "plan_ordinal": 17,
+        "eff_ordinal": 51,
+        "plan_time": "2024-10-17 10:21:23",
+        "eff_time": "2024-10-17 12:36:17",
+        "plan_time_upper": "2024-10-17 10:36:23",
+        "plan_time_lower": "2024-10-17 10:06:23",
+        "coordinates": [
+            7.8839646735,
+            46.2932041109
+        ],
+        "identcode": 996000024500685823
+    },
+    {
+        "plan_ordinal": 18,
+        "eff_ordinal": 47,
+        "plan_time": "2024-10-17 10:23:01",
+        "eff_time": "2024-10-17 12:29:22",
+        "plan_time_upper": "2024-10-17 10:38:01",
+        "plan_time_lower": "2024-10-17 10:08:01",
+        "coordinates": [
+            7.8837571167,
+            46.2935314725
+        ],
+        "identcode": 996000070012442675
+    },
+    {
+        "plan_ordinal": 19,
+        "eff_ordinal": 48,
+        "plan_time": "2024-10-17 10:28:09",
+        "eff_time": "2024-10-17 12:31:23",
+        "plan_time_upper": "2024-10-17 10:43:09",
+        "plan_time_lower": "2024-10-17 10:13:09",
+        "coordinates": [
+            7.8844003311,
+            46.2936332953
+        ],
+        "identcode": 996002075397419693
+    },
+    {
+        "plan_ordinal": 20,
+        "eff_ordinal": 49,
+        "plan_time": "2024-10-17 10:28:09",
+        "eff_time": "2024-10-17 12:31:27",
+        "plan_time_upper": "2024-10-17 10:43:09",
+        "plan_time_lower": "2024-10-17 10:13:09",
+        "coordinates": [
+            7.8844003311,
+            46.2936332953
+        ],
+        "identcode": 993810161499359050
+    },
+    {
+        "plan_ordinal": 21,
+        "eff_ordinal": 40,
+        "plan_time": "2024-10-17 10:34:57",
+        "eff_time": "2024-10-17 11:42:48",
+        "plan_time_upper": "2024-10-17 10:49:57",
+        "plan_time_lower": "2024-10-17 10:19:57",
+        "coordinates": [
+            7.8857820321,
+            46.2934272468
+        ],
+        "identcode": 996011507330096902
+    },
+    {
+        "plan_ordinal": 22,
+        "eff_ordinal": 35,
+        "plan_time": "2024-10-17 10:37:28",
+        "eff_time": "2024-10-17 11:37:05",
+        "plan_time_upper": "2024-10-17 10:52:28",
+        "plan_time_lower": "2024-10-17 10:22:28",
+        "coordinates": [
+            7.8847816854,
+            46.2936111045
+        ],
+        "identcode": 996008760806411504
+    },
+    {
+        "plan_ordinal": 23,
+        "eff_ordinal": 36,
+        "plan_time": "2024-10-17 10:37:28",
+        "eff_time": "2024-10-17 11:37:11",
+        "plan_time_upper": "2024-10-17 10:52:28",
+        "plan_time_lower": "2024-10-17 10:22:28",
+        "coordinates": [
+            7.8847816854,
+            46.2936111045
+        ],
+        "identcode": 996015025900265833
+    },
+    {
+        "plan_ordinal": 24,
+        "eff_ordinal": 37,
+        "plan_time": "2024-10-17 10:40:02",
+        "eff_time": "2024-10-17 11:38:14",
+        "plan_time_upper": "2024-10-17 10:55:02",
+        "plan_time_lower": "2024-10-17 10:25:02",
+        "coordinates": [
+            7.8852561565,
+            46.2935498636
+        ],
+        "identcode": 996014166222760273
+    },
+    {
+        "plan_ordinal": 25,
+        "eff_ordinal": 38,
+        "plan_time": "2024-10-17 10:42:55",
+        "eff_time": "2024-10-17 11:39:25",
+        "plan_time_upper": "2024-10-17 10:57:55",
+        "plan_time_lower": "2024-10-17 10:27:55",
+        "coordinates": [
+            7.8854994786,
+            46.2931539904
+        ],
+        "identcode": 996015754700003734
+    },
+    {
+        "plan_ordinal": 26,
+        "eff_ordinal": 39,
+        "plan_time": "2024-10-17 10:42:55",
+        "eff_time": "2024-10-17 11:40:09",
+        "plan_time_upper": "2024-10-17 10:57:55",
+        "plan_time_lower": "2024-10-17 10:27:55",
+        "coordinates": [
+            7.8854994786,
+            46.2931539904
+        ],
+        "identcode": 996010941600375511
+    },
+    {
+        "plan_ordinal": 27,
+        "eff_ordinal": 33,
+        "plan_time": "2024-10-17 10:45:41",
+        "eff_time": "2024-10-17 11:35:35",
+        "plan_time_upper": "2024-10-17 11:00:41",
+        "plan_time_lower": "2024-10-17 10:30:41",
+        "coordinates": [
+            7.8852596114,
+            46.2928634732
+        ],
+        "identcode": 994010486050399489
+    },
+    {
+        "plan_ordinal": 28,
+        "eff_ordinal": 34,
+        "plan_time": "2024-10-17 10:45:41",
+        "eff_time": "2024-10-17 11:35:44",
+        "plan_time_upper": "2024-10-17 11:00:41",
+        "plan_time_lower": "2024-10-17 10:30:41",
+        "coordinates": [
+            7.8852596114,
+            46.2928634732
+        ],
+        "identcode": 996014383197372100
+    },
+    {
+        "plan_ordinal": 29,
+        "eff_ordinal": 32,
+        "plan_time": "2024-10-17 10:52:24",
+        "eff_time": "2024-10-17 11:34:34",
+        "plan_time_upper": "2024-10-17 11:07:24",
+        "plan_time_lower": "2024-10-17 10:37:24",
+        "coordinates": [
+            7.8857094859,
+            46.2928104236
+        ],
+        "identcode": 994210310604147920
+    },
+    {
+        "plan_ordinal": 30,
+        "eff_ordinal": 41,
+        "plan_time": "2024-10-17 10:59:36",
+        "eff_time": "2024-10-17 11:47:42",
+        "plan_time_upper": "2024-10-17 11:14:36",
+        "plan_time_lower": "2024-10-17 10:44:36",
+        "coordinates": [
+            7.886437349,
+            46.2932645348
+        ],
+        "identcode": 996008376529435026
+    },
+    {
+        "plan_ordinal": 31,
+        "eff_ordinal": 42,
+        "plan_time": "2024-10-17 10:59:36",
+        "eff_time": "2024-10-17 11:47:59",
+        "plan_time_upper": "2024-10-17 11:14:36",
+        "plan_time_lower": "2024-10-17 10:44:36",
+        "coordinates": [
+            7.886437349,
+            46.2932645348
+        ],
+        "identcode": 996007791552668028
+    },
+    {
+        "plan_ordinal": 32,
+        "eff_ordinal": 43,
+        "plan_time": "2024-10-17 10:59:36",
+        "eff_time": "2024-10-17 11:48:14",
+        "plan_time_upper": "2024-10-17 11:14:36",
+        "plan_time_lower": "2024-10-17 10:44:36",
+        "coordinates": [
+            7.886437349,
+            46.2932645348
+        ],
+        "identcode": 996001082621743528
+    },
+    {
+        "plan_ordinal": 33,
+        "eff_ordinal": 44,
+        "plan_time": "2024-10-17 11:03:40",
+        "eff_time": "2024-10-17 11:51:32",
+        "plan_time_upper": "2024-10-17 11:18:40",
+        "plan_time_lower": "2024-10-17 10:48:40",
+        "coordinates": [
+            7.8867143617,
+            46.2934946311
+        ],
+        "identcode": 996013537320797615
+    },
+    {
+        "plan_ordinal": 34,
+        "eff_ordinal": 45,
+        "plan_time": "2024-10-17 11:03:40",
+        "eff_time": "2024-10-17 11:53:19",
+        "plan_time_upper": "2024-10-17 11:18:40",
+        "plan_time_lower": "2024-10-17 10:48:40",
+        "coordinates": [
+            7.8867143617,
+            46.2934946311
+        ],
+        "identcode": 994410411400496925
+    },
+    {
+        "plan_ordinal": 35,
+        "eff_ordinal": 46,
+        "plan_time": "2024-10-17 11:06:56",
+        "eff_time": "2024-10-17 11:54:51",
+        "plan_time_upper": "2024-10-17 11:21:56",
+        "plan_time_lower": "2024-10-17 10:51:56",
+        "coordinates": [
+            7.886841318,
+            46.29315229
+        ],
+        "identcode": 996015025900264780
+    },
+    {
+        "plan_ordinal": 36,
+        "eff_ordinal": 30,
+        "plan_time": "2024-10-17 11:09:30",
+        "eff_time": "2024-10-17 11:30:33",
+        "plan_time_upper": "2024-10-17 11:24:30",
+        "plan_time_lower": "2024-10-17 10:54:30",
+        "coordinates": [
+            7.8862734444,
+            46.292743428
+        ],
+        "identcode": 996013587900773910
+    },
+    {
+        "plan_ordinal": 37,
+        "eff_ordinal": 31,
+        "plan_time": "2024-10-17 11:09:30",
+        "eff_time": "2024-10-17 11:30:44",
+        "plan_time_upper": "2024-10-17 11:24:30",
+        "plan_time_lower": "2024-10-17 10:54:30",
+        "coordinates": [
+            7.8862734444,
+            46.292743428
+        ],
+        "identcode": 996013587900771456
+    },
+    {
+        "plan_ordinal": 38,
+        "eff_ordinal": 16,
+        "plan_time": "2024-10-17 11:14:12",
+        "eff_time": "2024-10-17 10:48:31",
+        "plan_time_upper": "2024-10-17 11:29:12",
+        "plan_time_lower": "2024-10-17 10:59:12",
+        "coordinates": [
+            7.8869659314,
+            46.2912644855
+        ],
+        "identcode": 993711122202963178
+    },
+    {
+        "plan_ordinal": 39,
+        "eff_ordinal": 14,
+        "plan_time": "2024-10-17 11:17:46",
+        "eff_time": "2024-10-17 10:44:15",
+        "plan_time_upper": "2024-10-17 11:32:46",
+        "plan_time_lower": "2024-10-17 11:02:46",
+        "coordinates": [
+            7.8867131624,
+            46.2914561954
+        ],
+        "identcode": 996012872921276133
+    },
+    {
+        "plan_ordinal": 40,
+        "eff_ordinal": 15,
+        "plan_time": "2024-10-17 11:17:46",
+        "eff_time": "2024-10-17 10:44:34",
+        "plan_time_upper": "2024-10-17 11:32:46",
+        "plan_time_lower": "2024-10-17 11:02:46",
+        "coordinates": [
+            7.8867131624,
+            46.2914561954
+        ],
+        "identcode": 996013505601868086
+    },
+    {
+        "plan_ordinal": 41,
+        "eff_ordinal": 13,
+        "plan_time": "2024-10-17 11:21:46",
+        "eff_time": "2024-10-17 10:43:21",
+        "plan_time_upper": "2024-10-17 11:36:46",
+        "plan_time_lower": "2024-10-17 11:06:46",
+        "coordinates": [
+            7.8866131695,
+            46.291447595
+        ],
+        "identcode": 996014383197378081
+    },
+    {
+        "plan_ordinal": 42,
+        "eff_ordinal": 17,
+        "plan_time": "2024-10-17 11:27:16",
+        "eff_time": "2024-10-17 10:52:10",
+        "plan_time_upper": "2024-10-17 11:42:16",
+        "plan_time_lower": "2024-10-17 11:12:16",
+        "coordinates": [
+            7.8859565773,
+            46.2916103131
+        ],
+        "identcode": 996013537320804685
+    },
+    {
+        "plan_ordinal": 43,
+        "eff_ordinal": 19,
+        "plan_time": "2024-10-17 11:29:29",
+        "eff_time": "2024-10-17 10:54:13",
+        "plan_time_upper": "2024-10-17 11:44:29",
+        "plan_time_lower": "2024-10-17 11:14:29",
+        "coordinates": [
+            7.8856292295,
+            46.2915702242
+        ],
+        "identcode": 996002075397411206
+    },
+    {
+        "plan_ordinal": 44,
+        "eff_ordinal": 18,
+        "plan_time": "2024-10-17 11:34:43",
+        "eff_time": "2024-10-17 10:52:52",
+        "plan_time_upper": "2024-10-17 11:49:43",
+        "plan_time_lower": "2024-10-17 11:19:43",
+        "coordinates": [
+            7.8858896876,
+            46.291050141
+        ],
+        "identcode": 996013537320806255
+    },
+    {
+        "plan_ordinal": 45,
+        "eff_ordinal": 24,
+        "plan_time": "2024-10-17 11:40:18",
+        "eff_time": "2024-10-17 11:03:30",
+        "plan_time_upper": "2024-10-17 11:55:18",
+        "plan_time_lower": "2024-10-17 11:25:18",
+        "coordinates": [
+            7.886256701,
+            46.2911800301
+        ],
+        "identcode": 996014593210495682
+    },
+    {
+        "plan_ordinal": 46,
+        "eff_ordinal": 25,
+        "plan_time": "2024-10-17 11:40:18",
+        "eff_time": "2024-10-17 11:03:43",
+        "plan_time_upper": "2024-10-17 11:55:18",
+        "plan_time_lower": "2024-10-17 11:25:18",
+        "coordinates": [
+            7.886256701,
+            46.2911800301
+        ],
+        "identcode": 996002075397423101
+    },
+    {
+        "plan_ordinal": 47,
+        "eff_ordinal": 26,
+        "plan_time": "2024-10-17 11:40:18",
+        "eff_time": "2024-10-17 11:03:58",
+        "plan_time_upper": "2024-10-17 11:55:18",
+        "plan_time_lower": "2024-10-17 11:25:18",
+        "coordinates": [
+            7.886256701,
+            46.2911800301
+        ],
+        "identcode": 996012592200126077
+    },
+    {
+        "plan_ordinal": 48,
+        "eff_ordinal": 27,
+        "plan_time": "2024-10-17 11:40:18",
+        "eff_time": "2024-10-17 11:04:02",
+        "plan_time_upper": "2024-10-17 11:55:18",
+        "plan_time_lower": "2024-10-17 11:25:18",
+        "coordinates": [
+            7.886256701,
+            46.2911800301
+        ],
+        "identcode": 994210310604148745
+    },
+    {
+        "plan_ordinal": 49,
+        "eff_ordinal": 23,
+        "plan_time": "2024-10-17 11:43:08",
+        "eff_time": "2024-10-17 11:02:31",
+        "plan_time_upper": "2024-10-17 11:58:08",
+        "plan_time_lower": "2024-10-17 11:28:08",
+        "coordinates": [
+            7.8866650732,
+            46.2911316384
+        ],
+        "identcode": 996011723000263920
+    },
+    {
+        "plan_ordinal": 50,
+        "eff_ordinal": 22,
+        "plan_time": "2024-10-17 11:45:38",
+        "eff_time": "2024-10-17 11:00:36",
+        "plan_time_upper": "2024-10-17 12:00:38",
+        "plan_time_lower": "2024-10-17 11:30:38",
+        "coordinates": [
+            7.8864354048,
+            46.290818594
+        ],
+        "identcode": 996016050403818294
+    },
+    {
+        "plan_ordinal": 51,
+        "eff_ordinal": 20,
+        "plan_time": "2024-10-17 11:48:35",
+        "eff_time": "2024-10-17 10:56:24",
+        "plan_time_upper": "2024-10-17 12:03:35",
+        "plan_time_lower": "2024-10-17 11:33:35",
+        "coordinates": [
+            7.8860156044,
+            46.2907392901
+        ],
+        "identcode": 996009834404294663
+    },
+    {
+        "plan_ordinal": 52,
+        "eff_ordinal": 21,
+        "plan_time": "2024-10-17 11:48:35",
+        "eff_time": "2024-10-17 10:56:36",
+        "plan_time_upper": "2024-10-17 12:03:35",
+        "plan_time_lower": "2024-10-17 11:33:35",
+        "coordinates": [
+            7.8860156044,
+            46.2907392901
+        ],
+        "identcode": 996000150084965736
+    },
+    {
+        "plan_ordinal": 53,
+        "eff_ordinal": 55,
+        "plan_time": "2024-10-17 11:51:51",
+        "eff_time": "2024-10-17 14:08:56",
+        "plan_time_upper": "2024-10-17 12:06:51",
+        "plan_time_lower": "2024-10-17 11:36:51",
+        "coordinates": [
+            7.8869375441,
+            46.2908112113
+        ],
+        "identcode": 996002550179355739
+    },
+    {
+        "plan_ordinal": 54,
+        "eff_ordinal": 28,
+        "plan_time": "2024-10-17 11:57:23",
+        "eff_time": "2024-10-17 11:23:10",
+        "plan_time_upper": "2024-10-17 12:12:23",
+        "plan_time_lower": "2024-10-17 11:42:23",
+        "coordinates": [
+            7.888114136,
+            46.2910773233
+        ],
+        "identcode": 996014188900239828
+    },
+    {
+        "plan_ordinal": 55,
+        "eff_ordinal": 29,
+        "plan_time": "2024-10-17 12:04:19",
+        "eff_time": "2024-10-17 11:26:55",
+        "plan_time_upper": "2024-10-17 12:19:19",
+        "plan_time_lower": "2024-10-17 11:49:19",
+        "coordinates": [
+            7.8888334814,
+            46.2911293422
+        ],
+        "identcode": 996008376529429606
+    }
+]

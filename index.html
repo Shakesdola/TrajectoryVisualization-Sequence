@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Visualization</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf"></script>
+
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
+
+
+
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "qqwajks51d");
+</script>
+
+</head>
+<body>
+    <div id="infoPanel">
+        <!--<button id="runScriptsButton">Run</button> for future upload data and run python scripts-->
+        <div class="select-data-dropdown">
+
+            <div class="first-line">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0,0,256,256"
+                    style="fill:#4D4D4D;">
+                    <g fill="#4d4d4d" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M4,4c-1.09425,0 -2,0.90575 -2,2v12c0,1.09426 0.90575,2 2,2h16c1.09426,0 2,-0.90574 2,-2v-10c0,-1.09425 -0.90574,-2 -2,-2h-8l-2,-2zM4,6h5.17188l2,2h8.82813v10h-16z"></path></g></g>
+                    </svg>
+                <select id="sourceSelector">
+                    <option value="Source1">Tour 1</option>
+                    <option value="Source2">Tour 2</option>
+                    <option value="Source3">Tour 3</option>
+                </select>
+                <img width="18" height="18" src="https://img.icons8.com/forma-regular/24/4D4D4D/today.png" alt="today"/>
+                <p class="date" id="yymmdd">Date</p>
+            </div>
+
+            <div class="second-line">
+                <img width="18" height="18" src="https://img.icons8.com/material-outlined/24/4D4D4D/address.png" alt="address"/> 
+                <p class="date" id="deliveryCode">
+                    POSTCODE</p>
+                
+            </div>
+
+            <div class="third-line">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#4D4D4D"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    >
+                    <line x1="16.5" y1="9.4" x2="7.5" y2="4.21" />
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                    <line x1="12" y1="22.08" x2="12" y2="12" />
+                    </svg>
+
+                <p class="date" id="totalParcelNumber">Total Parcel Number</p>
+            </div>
+        </div>
+
+
+        <div id="statisticData">
+            <p class="infos-title" id="infos-similarity">Loading...</p>
+            <!-- Time Section -->
+            <div class="info-section">
+                <p class="infos-title">Time Difference: <span id="infos-time-deviation">Loading...</span>
+                    <button class="toggle-btn" aria-expanded="false"></button>
+                </p>
+                    
+                <div class="info-content" hidden>
+                    <p class="infos-content" id="infos-time">Loading...</p>
+                </div>
+            </div>
+
+            <!-- Distance Section -->
+            <div class="info-section">
+                <p class="infos-title">Distance Difference: <span id="infos-distance-deviation">Loading...</span>
+                    <button class="toggle-btn" aria-expanded="false"></button>
+                </p>
+                
+                <div class="info-content" hidden>
+                    <p class="infos-content" id="infos-distance">Loading...</p>
+                    
+                </div>
+            </div>
+        
+        </div>
+
+
+        <div class="control-box">
+            <div class="control-header">
+                
+                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M9.66602,2l-0.49023,2.52344c-0.82417,0.31082 -1.58099,0.74649 -2.24414,1.29102l-2.42383,-0.83594l-2.33594,4.04297l1.94141,1.6875c-0.07463,0.45823 -0.11328,0.88286 -0.11328,1.29102c0,0.40877 0.03981,0.83263 0.11328,1.29102v0.00195l-1.94141,1.6875l2.33594,4.04102l2.42188,-0.83398c0.66321,0.54482 1.42175,0.97807 2.24609,1.28906l0.49023,2.52344h4.66797l0.49024,-2.52344c0.82471,-0.31102 1.58068,-0.74599 2.24414,-1.29102l2.42383,0.83594l2.33398,-4.04102l-1.93945,-1.68945c0.07463,-0.45823 0.11328,-0.88286 0.11328,-1.29102c0,-0.40754 -0.03887,-0.83163 -0.11328,-1.28906v-0.00195l1.94141,-1.68945l-2.33594,-4.04102l-2.42188,0.83398c-0.66321,-0.54482 -1.42175,-0.97807 -2.24609,-1.28906l-0.49024,-2.52344zM11.31445,4h1.37109l0.38867,2l1.04297,0.39453c0.62866,0.23694 1.19348,0.56222 1.68359,0.96484l0.86328,0.70703l1.92188,-0.66016l0.68555,1.18555l-1.53516,1.33594l0.17578,1.09961v0.00195c0.06115,0.37494 0.08789,0.68947 0.08789,0.9707c0,0.28123 -0.02674,0.59572 -0.08789,0.9707l-0.17773,1.09961l1.53516,1.33594l-0.68555,1.1875l-1.91992,-0.66211l-0.86523,0.70898c-0.49011,0.40262 -1.05298,0.7279 -1.68164,0.96484h-0.00195l-1.04297,0.39453l-0.38867,2h-1.36914l-0.38867,-2l-1.04297,-0.39453c-0.62867,-0.23694 -1.19348,-0.56222 -1.68359,-0.96484l-0.86328,-0.70703l-1.92187,0.66016l-0.68555,-1.18555l1.53711,-1.33789l-0.17773,-1.0957v-0.00195c-0.06027,-0.37657 -0.08789,-0.69198 -0.08789,-0.97266c0,-0.28123 0.02674,-0.59572 0.08789,-0.9707l0.17773,-1.09961l-1.53711,-1.33594l0.68555,-1.1875l1.92188,0.66211l0.86328,-0.70898c0.49011,-0.40262 1.05493,-0.7279 1.68359,-0.96484l1.04297,-0.39453zM12,8c-2.19652,0 -4,1.80348 -4,4c0,2.19652 1.80348,4 4,4c2.19652,0 4,-1.80348 4,-4c0,-2.19652 -1.80348,-4 -4,-4zM12,10c1.11148,0 2,0.88852 2,2c0,1.11148 -0.88852,2 -2,2c-1.11148,0 -2,-0.88852 -2,-2c0,-1.11148 0.88852,-2 2,-2z"></path></g></g>
+                <div id="dynamic-banner">Trajectory / Animation Control</div>
+                <span data-tooltip="Helper">
+                    <svg id="helpIcon3" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentcolor" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                      <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                    </svg>
+                  </span>
+                  
+            </div>
+            <div id="checkbox-container" data-tooltip="Show Static Trajectory">
+                <label><input type="checkbox" id="toggleMapPlan" checked>Planned Trajectory</label>
+                <label><input type="checkbox" id="toggleMapEff" checked>Effective Trajectory</label>
+                
+                <!-- <div class="comment" style="padding-top: 10px;">Please select animation mode: </div> -->
+            </div>
+
+            <div id="checkbox-container" data-tooltip="Show Start & End Points">
+                <label><input type="checkbox" id="toggleSEPointPlan" checked>Planned Start/End Points</label>
+                <label><input type="checkbox" id="toggleSEPointEff" checked>Effective Start/End Points</label>
+            </div>
+            
+            <div id="checkbox-container" data-tooltip="Select Animation Mode before playback">
+                
+                <label><input type="radio" id="toggleAnimationPlan" unchecked>Animation Planned</label> <br>
+                <label><input type="radio" id="toggleAnimationEff" unchecked>Animation Effective</label>
+                
+                <label><input type="radio" id="toggleAnimationBoth" checked>Animation Planned + Effective</label>
+            </div>
+
+            
+            <div class="slider-container">
+                <div class="speed-slider-row">
+                    <label for="speedSlider" class="speed-label">Speed</label>
+                    
+                    <div class="speed-slider-column">
+                        <input class="speed-slider" type="range" id="speedSlider" min="0.1" max="1" step="0.1" value="0.5" data-tooltip="Animation Speed">
+                
+                        <!-- Static text values corresponding to the slider -->
+                        <div class="text-values">
+                            <span>1x</span>
+                            <span>5x</span>
+                            <span>10x</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="toggle-container" data-tooltip="Auto tracking the animation">
+                <span id="mapTrackLabel">Auto-Track</span>
+                <label class="switch">
+                  <input type="checkbox" id="mapTrackToggle" checked>
+                  <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="comment">
+                Auto tracking the animation current position / User manually adjust the map view
+            </div>
+
+            <div class="control-container">
+                <span>Player Status</span><span id="animation-dynamic-banner">Animation Off</span>
+            </div>
+
+            
+        </div>
+
+
+        <!-- <div class="control-box">
+            
+              
+            <div>
+
+                <div class="control-header">
+                    Charts Control
+                </div>
+                <label  style="padding-top: 8px;"><input type="checkbox" id="toggleTrace1" checked> Spatial Distance Chart</label> 
+                <span data-tooltip="Helper"><svg id="helpIcon1" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                  </svg></span>
+                <label  style="padding-bottom: 10px;"><input type="checkbox" id="toggleTrace2" checked>Delivery Sequence Chart</label>
+                <span data-tooltip="Helper"><svg id="helpIcon2" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                  </svg></span>
+
+            </div>
+            
+        </div> -->
+
+    </div>
+
+    
+    <div id="rightside-content">
+    <div id="mapView">
+        <button class="infocollapseButton" id="infocollapseButton" data-tooltip-right="Hide Information"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></button>
+        <!-- 添加图例说明 -->
+        <div id="legend">
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgb(214, 42, 33);"></div>
+                <span>Delay</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgb(255, 234, 0);"></div>
+                <span>Early</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgb(6, 145, 39);"></div>
+                <span>On time</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-line" style="border-top: 5px solid rgba(145, 85, 77, 0.8);"></div>
+                <span>Planned Trajectory</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-line" style="border-top: 5px solid rgba(0, 149, 255,0.7);"></div>
+                <span>Effective Trajectory</span>
+            </div>
+            <div class="legend-item">
+                <div style="margin-right: 10px">
+                    <img src="/static/start-plan.png" alt="Start Plan" style="width: 14px; height: 14px; vertical-align: middle;">
+                    <img src="/static/end-plan.png" alt="End Plan" style="width: 14px; height: 14px; vertical-align: middle;">
+                </div>
+                <span>Planned Start/End</span>
+            </div>
+            <div class="legend-item">
+                <div style="margin-right: 10px">
+                    <img src="/static/start-eff.png" alt="Start Plan" style="width: 14px; height: 14px; vertical-align: middle;">
+                    <img src="/static/end-eff.png" alt="End Plan" style="width: 14px; height: 14px; vertical-align: middle;">
+                </div>
+                <span>Effective Start/End</span>
+            </div>
+        </div>
+        <button class="tourOverviewButton" id="tourOverviewButton" data-tooltip-left="Tour Overview"><img width="22" height="22" src="https://img.icons8.com/forma-thin/24/737373/journey.png" alt="journey"/></button>
+
+        <button class="satelliteButton" id="satelliteButton" data-tooltip-left="Satellite View"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path fill="currentColor" d="m8.875 3.594l-.719.687l-3.844 3.875l-.718.719l.719.688l5.75 5.78l-.657.657L16 22.594l.656-.657l5.75 5.782l.719.687l.719-.687l3.875-3.907l.718-.687l-6.78-6.781c.616-1.66.265-3.61-1.063-4.938c-.907-.906-2.117-1.344-3.313-1.344a4.76 4.76 0 0 0-1.625.313L9.594 4.281zm0 2.812l5.063 5.063l-2.47 2.469l-5.062-5.063zm8.406 5.625c.68 0 1.383.258 1.907.781a2.669 2.669 0 0 1 0 3.782l-2.907 2.875l-.281.281L12.25 16l3.031-3.031l.125-.156c.07-.07.145-.126.219-.188l.188-.156c.44-.293.96-.438 1.468-.438zM8.438 17L7 18.406L13.594 25L15 23.562zm12.093 1.063l5.063 5.062l-2.469 2.469l-5.063-5.063z"/></svg>
+        </button>
+        <button class="collapseButton" id="collapseButton" data-tooltip-left="Hide Graph"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></button>
+    </div>
+
+    <!-- Chart Helper -->
+    <div id="helpModal1">
+        <div class="helpTitle">Delivery Sequence Chart</div>
+        <div class="helpText">
+            X: Planned delivery order.<br>
+            Y: Effective delivery order.<br>
+        </div>
+        <div class="helpText"> Each blue dot
+            <div class="dot" style="background-color: rgb(54, 90, 220);"></div>
+            represents the distribution of the planned order and its corresponding effective order for each delivery stop.
+        </div>
+        <div class="helpText">
+            If the effective order follows planned order totally, all points will form a straight diagonal line (y=x).
+        </div>
+        <div class="helpText">
+            If dots deviate from the <strong>diagonal line</strong>, it means the effective order differs from the planned order:
+            <ul ul style="margin-top: 10px; padding-left: 20px;">
+                <li>Dots above the line: Delivery appears later than expected.</li>
+                <li>Dots below the line: Delivery appears earlier than expected.</li>
+            </ul>
+         </div>
+         <div class="helpText">
+            <strong>Verticles line: </strong>Indicate the current position of the animation.
+        </div>
+         <div id="button-container">
+            <button onclick="closeHelpModal1()">×</button>
+        </div>
+    </div>
+
+
+
+    <!-- Control box helper -->
+    <div id="helpModal3">
+        <div class="helpTitle">Control Box</div>
+        <div class="helpText">
+            <strong>Show Static Trajectory:</strong> Show / Hide the overview of trajectory.</li>
+        </div>
+
+        <div class="helpText">
+            <strong>Show Start & End Points:</strong> Show / Hide the start and end points for each trajectory.
+        </div>
+
+        <div class="helpText">
+            <strong>Animation Mode:</strong> Select one of the Animation Mode before playing the animation.
+        
+
+        <ul>
+            <li>Play Animation for <strong>Planned Trajectory Only</strong></li>
+            <li>Play Animation for <strong>Effective Trajectory Only</strong></li>
+            <li>Play Animation for <strong>Both Planned and Effective Trajectories</strong> Simultaneously</li>
+        </ul>
+        </div>
+
+        <div class="helpText">
+            <strong>Speed:</strong> Adjust the speed of the animation.
+        </div>
+
+        <div class="helpText">
+            <strong>Auto-Track:</strong> When enabled, the map automatically follows the animation. When disabled, you can manually adjust the map view to follow the animation.
+        </div>
+        
+
+         <div id="button-container">
+            <button onclick="closeHelpModal3()">×</button>
+        </div>
+    </div>
+
+    
+    <div id="figureGroup"  data-tooltip="Double-click to reset">
+        <!-- <div id="timelineChart" style="width: 100%; height: 100%;"></div> -->
+
+
+        <div id="plotlyChart" style="width:100%; height:100%;">
+            <div class="chart-helper">
+                <span data-tooltip="Helper"><svg id="helpIcon1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+            </svg></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="playbar-box">
+    <div class="PlaybackSlider">
+        <div class="slider-row-plan">
+            <label for="playbarSliderPlan">Planned</label>
+            <input type="range" id="playbarSliderPlan" min="0" max="100" value="0" step="1">
+        </div>
+        <div class="slider-row-eff">
+            <label for="playbarSliderEff">Effective</label>
+            <input type="range" id="playbarSliderEff" min="0" max="100" value="0" step="1">
+        </div>
+    </div>
+    <div id="button-container">
+        <button id="playPauseButton"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+            <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+            </svg></button>
+        <button id="stopButton"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-stop-fill" viewBox="0 0 16 16">
+            <path d="M5 3.5h6A1.5 1.5 0 0 1 12.5 5v6a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 11V5A1.5 1.5 0 0 1 5 3.5"/>
+            </svg></button> 
+            
+            
+    </div>
+    </div>
+    
+</div>
+
+    <script src="js/dataLoader.js"></script>
+    <script src="./js/map.js"></script>
+    <!-- <script src="./js/mapPlan.js"></script>-->
+    <script src="./js/mapEff_Plan.js"></script>
+    <!-- <script src="./js/timeline.js"></script> -->
+    <!-- <script  src="./js/figure_continuous.js"></script> -->
+    <script  src="./js/figure_sequence.js"></script>
+    <script src="./js/info.js"></script>
+    <script src="./js/playbar.js"></script>
+</body>
+</html>

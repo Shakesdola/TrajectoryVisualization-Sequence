@@ -1,0 +1,846 @@
+/* General layout */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.mapboxgl-popup {
+    z-index: 9999 !important;
+  }
+  
+/* Information panel on the left */
+#infoPanel {
+    position: relative;
+    width: 19%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    /*overflow-y: auto;*/
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+    z-index: 10;
+    overflow-y: auto;
+}
+#infoPanel.collapse {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#rightside-content {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    transition: width 0.3s ease-in-out; /* 添加过渡动画 */
+    z-index: 5000;
+}
+
+/* Map view covering the remaining space */
+#mapView {
+    flex: 1; /* 默认占据所有剩余空间 */
+    background-color: lightblue;
+    position: relative;
+}
+.hidden {
+    opacity: 0;
+    transition: opacity 0.1s linear; /* 迅速过渡 */
+}
+
+
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.slider-container input[type="range"] {
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    appearance: none;
+    background: #e0e0e0;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    direction: rtl; /* 从右到左 */
+}
+.speed-slider-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.speed-slider-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.slider-label {
+    min-width: 50px;
+    font-weight: bold;
+}
+
+
+.text-values {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.text-values span {
+    font-weight: bold;
+}
+/* Slider container */
+.slider-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+
+
+#sourceSelector {
+    width: 130px;
+    padding: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#sourceSelector:focus {
+    outline: none;
+    border-color: #fc0;
+    box-shadow: 0 0 5px hsl(0, 0%, 80%);
+}
+
+#sourceSelector option {
+    font-size: 12px;
+    padding: 8px;
+}
+
+/*
+.select-data-dropdown {
+    display: flex;             /* 使用 flexbox 布局
+    justify-content: center;   /* 水平居中
+    align-items: center;       /* 垂直居中
+    gap: 10px;                 /* 给 SVG 图标和 select 元素之间添加间隙
+
+}*/
+
+.select-data-dropdown {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    align-items: flex-start; /* 左对齐 */
+    gap: 0px; /* 行与行之间的间距 */
+    margin-bottom: 5px;
+}
+
+.first-line,
+.second-line,
+.third-line {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    gap: 10px; /* 图标和文字之间的间距 */
+    margin-bottom: -15px;
+}
+.date {
+
+    padding: 0px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+/* 自适应设计：调整小屏幕上的字体大小 */
+@media (max-width: 600px) {
+    p {
+        font-size: 10px;
+        padding: 12px;
+    }
+}
+
+
+/* 标题样式 */
+.infos-title {
+    background-color: #fc0; /* 背景蓝色 */
+    font-size: 15px;
+    color: #333; /* 字体白色 */
+    font-weight: bold; /* 字体粗体 */
+    padding: 5px 10px; /* 可选：添加内边距 */
+    margin: 5px 0; /* 可选：添加外边距 */
+    text-align: center;
+    transition: background 0.3s;
+}
+
+/* 内容样式 */
+.infos-content {
+    font-size: 15px;
+    padding: 5px 10px; /* 可选：添加内边距 */
+    margin: 5px 0; /* 可选：添加外边距 */
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.infos-content span {
+    display: inline;
+    margin-left: 10px; /* 调整与前面文本的间距 */
+    float: right; /* 让数值靠右对齐 */
+}
+
+
+#infos-time-deviation {
+    font-weight: bold; /* 字体粗体 */
+    padding: 2px 5px; /* 可选：添加内边距 */
+    margin: 2px 0; /* 可选：添加外边距 */
+    text-align: center;
+}
+#infos-distance-deviation {
+    font-weight: bold; /* 字体粗体 */
+    padding: 2px 5px; /* 可选：添加内边距 */
+    margin: 2px 0; /* 可选：添加外边距 */
+    text-align: center;
+}
+
+#legend {
+    font-size: 13 px;
+    line-height: 1;
+    padding: 4px;
+    margin:4px;
+
+    background-color: #ffffff;
+    color: #333333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.color-box {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.color-line {
+    width: 30px;
+    height: 0px;
+    margin-right: 10px;
+    border-top: 2px solid #000;
+}
+
+/* Overall control box style */
+.control-box {
+    background-color: #ffffff;
+    color: #424444;
+    border-radius: 10px;
+    padding: 5px 10px; /* 可选：添加内边距 */
+    margin: 18px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+
+/* Checkbox container styles */
+#checkbox-container {
+    margin-top: 5px;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+label {
+    display: inline-flex; /* 使checkbox和icon在同一行 */
+    align-items: center;  /* 垂直居中对齐 */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #fc0;
+}
+
+/* Radio button container styles */
+#radio-container {
+    margin-bottom: 1px;
+}
+
+label {
+    display: inline-flex; /* 使radio按钮和文字在同一行 */
+    align-items: center;  /* 垂直居中对齐 */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #fc0; /* modern color for radio buttons */
+}
+
+.control-header {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    gap: 8px; /* 控制图标和文本的间距 */
+    background: #fc0; /* 淡灰色背景 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 90%); /* 底部轻微分割线 */
+    /* font-weight: bold; */
+    font-size: 15px;
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 轻微阴影，增加层次感 */
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 5px;
+    height: 20px;
+}
+
+.control-header svg {
+    width: 20px;
+    height: 20px;
+    color: #555; /* 让图标颜色稍深 */
+}
+
+.dot {
+    color: #000000;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    display: inline-flex; /* 行内弹性盒子 */
+    align-items: center; /* 内容垂直居中 */
+    justify-content: center; /* 内容水平居中 */
+    vertical-align: middle; /* 与文字垂直对齐 */
+}
+
+.comment {
+    font-size: 12px; /* 较小的文字大小 */
+    color: #808080; /* 灰色 */
+    line-height: 1.5; /* 行高，确保文字可读性 */
+    margin: 0; /* 去除默认的外边距 */
+    padding: 0; /* 去除默认的内边距 */
+    border-bottom: 1px solid #ddd;
+}
+
+
+.chart-helper {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    z-index: 1000; /* 确保在图表上方 */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+#helpIcon1, #helpIcon2, #helpIcon-controlbox{
+    opacity: 0.7;
+
+    cursor: pointer; /* 可选，鼠标悬停时变成指针 */
+}
+
+#helpModal1, #helpModal2, #helpModal3 {
+    font-size: 14px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    color:#424444;
+    padding: 10px;
+    border-radius: 8px;
+    width: 500px;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* 提升层次感，模拟浮动效果 */
+}
+
+.helpTitle {
+    background-color: #fc0; /* 背景蓝色 */
+    font-size: 14px;
+    color: white; /* 字体白色 */
+    font-weight: bold; /* 字体粗体 */
+    padding: 10px; /* 可选：添加内边距 */
+    margin-top: -10px; /* 可选：添加外边距 */
+    margin-left: -10px;
+    border-top-left-radius: 8px;
+    margin-right: -10px;
+    border-top-right-radius: 8px;
+    text-align: center;
+
+}
+
+.helpText {
+    font-size: 14px;
+    padding: 5px 10px; /* 可选：添加内边距 */
+    margin: 5px 0; /* 可选：添加外边距 */
+    color: #808080; /* 灰色 */
+    line-height: 1.5; /* 行高，确保文字可读性 */
+}
+
+.collapseButton {
+    position: absolute !important;
+    bottom: 18px; /* 距离底部 10px */
+    right: 5px; /* 距离右侧 10px */
+    background-color: #ffffff;
+    color: rgb(137, 135, 135);
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 3px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+}
+
+.collapseButton:hover {
+    background-color: #e7e9eb;
+}
+
+.infocollapseButton {
+    position: absolute !important;
+    top: 8px; /* 距离底部 10px */
+    left: -20px; /* 距离右侧 10px */
+    background-color: #ffffff;
+    color: rgb(137, 135, 135);
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 5000;
+    width: 40px;
+    height: 40px;
+    visibility: visible;
+}
+
+.infocollapseButton:hover {
+    background-color: #e7e9eb;
+    z-index: 5000;
+}
+
+
+.satelliteButton {
+    position: absolute !important;
+    bottom: 70px; /* 距离底部 10px */
+    right: 5px; /* 距离右侧 10px */
+    background-color: #ffffff;
+    color: rgb(137, 135, 135);
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 3px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+}
+
+.satelliteButton:hover {
+    background-color: #e7e9eb;
+    z-index: 5000;
+}
+
+
+
+.tourOverviewButton {
+    position: absolute !important;
+    bottom: 122px; /* 距离底部 10px */
+    right: 5px; /* 距离右侧 10px */
+    background-color: #ffffff;
+    color: rgb(137, 135, 135);
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 3px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+}
+
+.tourOverviewButton:hover {
+    background-color: #e7e9eb;
+    z-index: 5000;
+}
+
+/* Figure group at the bottom-right */
+#figureGroup {
+    height: 25%; /* 默认占40%高度 */
+    background-color: #faf9f8;
+    padding-bottom:  10px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s ease; /* 添加平滑动画 */
+    overflow-y: auto;
+    box-sizing: border-box;
+    
+}
+#figureGroup.collapse {
+    height: 0;
+    padding: 0;
+}
+
+.playbar-box {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 8px; */
+    gap: 12px;
+    box-sizing: border-box;
+    /* background-color: #faf9f8; */
+    /* overflow-y: hidden; */
+    
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    justify-content: center;
+}
+.PlaybackSlider {
+    height: 35px;
+    display: flex;          /* 启用 flex 布局 */
+    flex-direction: column; /* 垂直排列 */
+    justify-content: center; /* 垂直居中 */
+    gap: 4px;              /* 调整行间距（可选） */
+  }
+  
+  .slider-row-plan,
+  .slider-row-eff {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .slider-row-plan label,
+  .slider-row-eff label {
+    width: 50px;
+    /* font-weight: bold; */
+    flex-shrink: 0;
+    align-items: center;
+  }
+  
+
+  
+  input[type="range"].plan-thumb,
+  input[type="range"].eff-thumb,
+  input[type="range"].both-thumb {
+    display: block;
+  }
+  
+#button-container {
+    display: flex;
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    z-index: 10;
+}
+
+button {
+    background-color: #fc0;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    height:30px;
+    width: 30px;
+    display: flex;
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 20%);
+}
+
+/* for hidden info button-expand/collapse */
+.toggle-btn {
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    padding: 0;
+    /* Visual Style */
+    background-color: transparent;
+    border: none;
+    border-radius: 3px; /* Perfect circle */
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.toggle-btn:hover {
+    background-color: #f7fafc; /* Very light blue-gray */
+    transform: scale(1.05);
+}
+
+.toggle-btn:active {
+    transform: scale(0.98);
+}
+
+.toggle-btn[aria-expanded="true"] {
+    color: white;
+}
+
+.toggle-tooltip {
+    position: absolute;
+    background: hsl(0, 0%, 40%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 2000;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8px;
+}
+
+
+
+/* Blinking animation */
+.blinking {
+    animation: blink 2s linear infinite;
+    color: #ff0000; /* Red for attention */
+    font-weight: bold;
+  }
+  
+  
+  /* Blink keyframes */
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+  }
+
+#animation-dynamic-banner {
+    background-color: #fce2b2; /* Light yellow background for visibility */
+    color: #a51728; /* Dark orange text for contrast */
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+
+/* for switch button (auto-track/user control)*/
+.toggle-container {
+    display: flex;
+    justify-content: space-between; /* Align label left, switch right */
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    /*min-width: 120px;  Optional: prevent layout shift if placed in flexible containers */
+    }
+
+.comment {
+    font-size: 12px; /* 较小的文字大小 */
+    color: #808080; /* 灰色 */
+    line-height: 1.5; /* 行高，确保文字可读性 */
+    margin: 0; /* 去除默认的外边距 */
+    padding-bottom: 10px; /* 去除默认的内边距 */
+    border-bottom: 1px solid #ddd;
+}
+    
+  /* for animation status banner */
+.control-container {
+display: flex;
+justify-content: space-between; /* Align label left, switch right */
+align-items: center;
+gap: 10px;
+font-size: 14px;
+padding: 10px 0;
+/*min-width: 120px;  Optional: prevent layout shift if placed in flexible containers */
+}
+  
+  #mapTrackLabel {
+    width: 90px; /* Reserve space for label */
+    text-align: left;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background-color: #ccc;
+    transition: .3s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .3s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #fc0;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(18px);
+  }
+  
+
+/* for auto-tootips - top*/
+
+[data-tooltip] {
+    position: relative; /* Required for positioning */
+    cursor: pointer; /* Indicates interactivity */
+  }
+  
+  [data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform: translateX(-50%);
+    background: hsl(0, 0%, 40%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    margin-bottom: 8px;
+    z-index: 100;
+  }
+  
+  [data-tooltip]:hover::after {
+    opacity: 1;
+  }
+
+
+
+[data-tooltip-right] {
+    position: relative; /* Required for positioning */
+    cursor: pointer; /* Indicates interactivity */
+  }
+  
+  [data-tooltip-right]::after {
+    content: attr(data-tooltip-right);
+    position: absolute;
+    left: 200%;
+    top: 100%;
+    transform: translateX(-50%);
+    background: hsl(0, 0%, 40%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    margin-bottom: 8px;
+    z-index: 100;
+  }
+  
+  [data-tooltip-right]:hover::after {
+    opacity: 1;
+  }
+
+
+ [data-tooltip-left] {
+    position: relative; /* Required for positioning */
+    cursor: pointer; /* Indicates interactivity */
+  }
+  
+  [data-tooltip-left]::after {
+    content: attr(data-tooltip-left);
+    position: absolute;
+    right: 0%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    background: hsl(0, 0%, 40%);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    margin-bottom: 8px;
+    z-index: 100;
+  }
+  
+  [data-tooltip-left]:hover::after {
+    opacity: 1;
+  }

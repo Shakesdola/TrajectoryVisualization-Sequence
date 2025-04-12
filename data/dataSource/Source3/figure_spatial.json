@@ -1,0 +1,2878 @@
+{
+    "distances": [
+        {
+            "plan_coordinate:": [
+                7.148238,
+                46.809208
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 763.66
+        },
+        {
+            "plan_coordinate:": [
+                7.148238,
+                46.809208
+            ],
+            "eff_coordinate": [
+                7.148238,
+                46.809208
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.148238,
+                46.809208
+            ],
+            "eff_coordinate": [
+                7.150465,
+                46.809203
+            ],
+            "distance": 246.29
+        },
+        {
+            "plan_coordinate:": [
+                7.150465,
+                46.809203
+            ],
+            "eff_coordinate": [
+                7.150465,
+                46.809203
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.150465,
+                46.809203
+            ],
+            "eff_coordinate": [
+                7.150465,
+                46.809203
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.150465,
+                46.809203
+            ],
+            "eff_coordinate": [
+                7.150465,
+                46.809203
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.150465,
+                46.809203
+            ],
+            "eff_coordinate": [
+                7.150465,
+                46.809203
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.150465,
+                46.809203
+            ],
+            "eff_coordinate": [
+                7.152831,
+                46.806348
+            ],
+            "distance": 409.78
+        },
+        {
+            "plan_coordinate:": [
+                7.152831,
+                46.806348
+            ],
+            "eff_coordinate": [
+                7.152831,
+                46.806348
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.152831,
+                46.806348
+            ],
+            "eff_coordinate": [
+                7.152831,
+                46.806348
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.152831,
+                46.806348
+            ],
+            "eff_coordinate": [
+                7.152831,
+                46.806348
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.152831,
+                46.806348
+            ],
+            "eff_coordinate": [
+                7.153486,
+                46.804537
+            ],
+            "distance": 212.75
+        },
+        {
+            "plan_coordinate:": [
+                7.154155,
+                46.806907
+            ],
+            "eff_coordinate": [
+                7.154281,
+                46.806498
+            ],
+            "distance": 47.28
+        },
+        {
+            "plan_coordinate:": [
+                7.154776,
+                46.807463
+            ],
+            "eff_coordinate": [
+                7.15454,
+                46.806533
+            ],
+            "distance": 105.99
+        },
+        {
+            "plan_coordinate:": [
+                7.156791,
+                46.805439
+            ],
+            "eff_coordinate": [
+                7.15454,
+                46.806533
+            ],
+            "distance": 276.72
+        },
+        {
+            "plan_coordinate:": [
+                7.156791,
+                46.805439
+            ],
+            "eff_coordinate": [
+                7.15454,
+                46.806533
+            ],
+            "distance": 276.72
+        },
+        {
+            "plan_coordinate:": [
+                7.156791,
+                46.805439
+            ],
+            "eff_coordinate": [
+                7.154155,
+                46.806907
+            ],
+            "distance": 333.58
+        },
+        {
+            "plan_coordinate:": [
+                7.156791,
+                46.805439
+            ],
+            "eff_coordinate": [
+                7.154516,
+                46.806847
+            ],
+            "distance": 295.78
+        },
+        {
+            "plan_coordinate:": [
+                7.156629,
+                46.805561
+            ],
+            "eff_coordinate": [
+                7.154516,
+                46.806847
+            ],
+            "distance": 273.47
+        },
+        {
+            "plan_coordinate:": [
+                7.156629,
+                46.805561
+            ],
+            "eff_coordinate": [
+                7.154516,
+                46.806847
+            ],
+            "distance": 273.47
+        },
+        {
+            "plan_coordinate:": [
+                7.156629,
+                46.805561
+            ],
+            "eff_coordinate": [
+                7.154776,
+                46.807463
+            ],
+            "distance": 293.48
+        },
+        {
+            "plan_coordinate:": [
+                7.156899,
+                46.805716
+            ],
+            "eff_coordinate": [
+                7.154268,
+                46.807421
+            ],
+            "distance": 346.6
+        },
+        {
+            "plan_coordinate:": [
+                7.156899,
+                46.805716
+            ],
+            "eff_coordinate": [
+                7.154268,
+                46.807421
+            ],
+            "distance": 346.6
+        },
+        {
+            "plan_coordinate:": [
+                7.156899,
+                46.805716
+            ],
+            "eff_coordinate": [
+                7.154268,
+                46.807421
+            ],
+            "distance": 346.6
+        },
+        {
+            "plan_coordinate:": [
+                7.156899,
+                46.805716
+            ],
+            "eff_coordinate": [
+                7.154955,
+                46.806509
+            ],
+            "distance": 232.15
+        },
+        {
+            "plan_coordinate:": [
+                7.156899,
+                46.805716
+            ],
+            "eff_coordinate": [
+                7.154955,
+                46.806509
+            ],
+            "distance": 232.15
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.154955,
+                46.806509
+            ],
+            "distance": 335.75
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.154955,
+                46.806509
+            ],
+            "distance": 335.75
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.15517,
+                46.806508
+            ],
+            "distance": 351.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.15517,
+                46.806508
+            ],
+            "distance": 351.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.154979,
+                46.80714
+            ],
+            "distance": 392.96
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.154979,
+                46.80714
+            ],
+            "distance": 392.96
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.155535,
+                46.806914
+            ],
+            "distance": 411.85
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.158047,
+                46.806828
+            ],
+            "distance": 630.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.158047,
+                46.806828
+            ],
+            "distance": 630.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.158047,
+                46.806828
+            ],
+            "distance": 630.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15299,
+                46.804192
+            ],
+            "eff_coordinate": [
+                7.156899,
+                46.805716
+            ],
+            "distance": 463.92
+        },
+        {
+            "plan_coordinate:": [
+                7.1527867676,
+                46.804597924
+            ],
+            "eff_coordinate": [
+                7.156899,
+                46.805716
+            ],
+            "distance": 471.25
+        },
+        {
+            "plan_coordinate:": [
+                7.1527867676,
+                46.804597924
+            ],
+            "eff_coordinate": [
+                7.156899,
+                46.805716
+            ],
+            "distance": 471.25
+        },
+        {
+            "plan_coordinate:": [
+                7.1527867676,
+                46.804597924
+            ],
+            "eff_coordinate": [
+                7.156899,
+                46.805716
+            ],
+            "distance": 471.25
+        },
+        {
+            "plan_coordinate:": [
+                7.1527867676,
+                46.804597924
+            ],
+            "eff_coordinate": [
+                7.156899,
+                46.805716
+            ],
+            "distance": 471.25
+        },
+        {
+            "plan_coordinate:": [
+                7.1527867676,
+                46.804597924
+            ],
+            "eff_coordinate": [
+                7.156629,
+                46.805561
+            ],
+            "distance": 438.03
+        },
+        {
+            "plan_coordinate:": [
+                7.153486,
+                46.804537
+            ],
+            "eff_coordinate": [
+                7.156629,
+                46.805561
+            ],
+            "distance": 365.53
+        },
+        {
+            "plan_coordinate:": [
+                7.153486,
+                46.804537
+            ],
+            "eff_coordinate": [
+                7.156629,
+                46.805561
+            ],
+            "distance": 365.53
+        },
+        {
+            "plan_coordinate:": [
+                7.153149,
+                46.804855
+            ],
+            "eff_coordinate": [
+                7.156791,
+                46.805439
+            ],
+            "distance": 407.91
+        },
+        {
+            "plan_coordinate:": [
+                7.153681,
+                46.804656
+            ],
+            "eff_coordinate": [
+                7.156791,
+                46.805439
+            ],
+            "distance": 354.65
+        },
+        {
+            "plan_coordinate:": [
+                7.153968,
+                46.804936
+            ],
+            "eff_coordinate": [
+                7.156791,
+                46.805439
+            ],
+            "distance": 317.11
+        },
+        {
+            "plan_coordinate:": [
+                7.153968,
+                46.804936
+            ],
+            "eff_coordinate": [
+                7.156791,
+                46.805439
+            ],
+            "distance": 317.11
+        },
+        {
+            "plan_coordinate:": [
+                7.153955,
+                46.805026
+            ],
+            "eff_coordinate": [
+                7.156534,
+                46.805361
+            ],
+            "distance": 287.61
+        },
+        {
+            "plan_coordinate:": [
+                7.154306,
+                46.805023
+            ],
+            "eff_coordinate": [
+                7.156534,
+                46.805361
+            ],
+            "distance": 249.21
+        },
+        {
+            "plan_coordinate:": [
+                7.154795,
+                46.805262
+            ],
+            "eff_coordinate": [
+                7.156534,
+                46.805361
+            ],
+            "distance": 192.63
+        },
+        {
+            "plan_coordinate:": [
+                7.154795,
+                46.805262
+            ],
+            "eff_coordinate": [
+                7.156386,
+                46.805642
+            ],
+            "distance": 180.89
+        },
+        {
+            "plan_coordinate:": [
+                7.154198,
+                46.804156
+            ],
+            "eff_coordinate": [
+                7.155409,
+                46.804639
+            ],
+            "distance": 144.16
+        },
+        {
+            "plan_coordinate:": [
+                7.154198,
+                46.804156
+            ],
+            "eff_coordinate": [
+                7.154861,
+                46.804968
+            ],
+            "distance": 115.85
+        },
+        {
+            "plan_coordinate:": [
+                7.154315,
+                46.804205
+            ],
+            "eff_coordinate": [
+                7.155277,
+                46.804771
+            ],
+            "distance": 123.4
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.155277,
+                46.804771
+            ],
+            "distance": 153.54
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.154861,
+                46.804968
+            ],
+            "distance": 115.86
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.154861,
+                46.804968
+            ],
+            "distance": 115.86
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.154988,
+                46.805021
+            ],
+            "distance": 131.07
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.155005,
+                46.80462
+            ],
+            "distance": 121.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.155005,
+                46.80462
+            ],
+            "distance": 121.52
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.154828,
+                46.804517
+            ],
+            "distance": 101.53
+        },
+        {
+            "plan_coordinate:": [
+                7.15391,
+                46.804528
+            ],
+            "eff_coordinate": [
+                7.154828,
+                46.804517
+            ],
+            "distance": 101.53
+        },
+        {
+            "plan_coordinate:": [
+                7.154254,
+                46.804663
+            ],
+            "eff_coordinate": [
+                7.154553,
+                46.804822
+            ],
+            "distance": 37.44
+        },
+        {
+            "plan_coordinate:": [
+                7.154553,
+                46.804368
+            ],
+            "eff_coordinate": [
+                7.154553,
+                46.804368
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.154553,
+                46.804368
+            ],
+            "eff_coordinate": [
+                7.154553,
+                46.804368
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.154553,
+                46.804368
+            ],
+            "eff_coordinate": [
+                7.154553,
+                46.804368
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.154553,
+                46.804368
+            ],
+            "eff_coordinate": [
+                7.154553,
+                46.804368
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.154343,
+                46.804704
+            ],
+            "eff_coordinate": [
+                7.154654,
+                46.804423
+            ],
+            "distance": 46.33
+        },
+        {
+            "plan_coordinate:": [
+                7.154654,
+                46.804423
+            ],
+            "eff_coordinate": [
+                7.154254,
+                46.804663
+            ],
+            "distance": 51.57
+        },
+        {
+            "plan_coordinate:": [
+                7.154395,
+                46.804734
+            ],
+            "eff_coordinate": [
+                7.154395,
+                46.804734
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.154828,
+                46.804517
+            ],
+            "eff_coordinate": [
+                7.154343,
+                46.804704
+            ],
+            "distance": 57.48
+        },
+        {
+            "plan_coordinate:": [
+                7.154828,
+                46.804517
+            ],
+            "eff_coordinate": [
+                7.154198,
+                46.804156
+            ],
+            "distance": 80.28
+        },
+        {
+            "plan_coordinate:": [
+                7.154499,
+                46.804791
+            ],
+            "eff_coordinate": [
+                7.154198,
+                46.804156
+            ],
+            "distance": 77.64
+        },
+        {
+            "plan_coordinate:": [
+                7.154499,
+                46.804791
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 71.32
+        },
+        {
+            "plan_coordinate:": [
+                7.154499,
+                46.804791
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 71.32
+        },
+        {
+            "plan_coordinate:": [
+                7.154927,
+                46.804573
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 112.58
+        },
+        {
+            "plan_coordinate:": [
+                7.154553,
+                46.804822
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 78.17
+        },
+        {
+            "plan_coordinate:": [
+                7.154553,
+                46.804822
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 78.17
+        },
+        {
+            "plan_coordinate:": [
+                7.155005,
+                46.80462
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 121.52
+        },
+        {
+            "plan_coordinate:": [
+                7.155005,
+                46.80462
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 121.52
+        },
+        {
+            "plan_coordinate:": [
+                7.154861,
+                46.804968
+            ],
+            "eff_coordinate": [
+                7.15391,
+                46.804528
+            ],
+            "distance": 115.86
+        },
+        {
+            "plan_coordinate:": [
+                7.154861,
+                46.804968
+            ],
+            "eff_coordinate": [
+                7.154315,
+                46.804205
+            ],
+            "distance": 103.68
+        },
+        {
+            "plan_coordinate:": [
+                7.154861,
+                46.804968
+            ],
+            "eff_coordinate": [
+                7.153486,
+                46.804537
+            ],
+            "distance": 159.34
+        },
+        {
+            "plan_coordinate:": [
+                7.155277,
+                46.804771
+            ],
+            "eff_coordinate": [
+                7.153149,
+                46.804855
+            ],
+            "distance": 235.52
+        },
+        {
+            "plan_coordinate:": [
+                7.155277,
+                46.804771
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 260.88
+        },
+        {
+            "plan_coordinate:": [
+                7.154988,
+                46.805021
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 239.18
+        },
+        {
+            "plan_coordinate:": [
+                7.155409,
+                46.804639
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 272.04
+        },
+        {
+            "plan_coordinate:": [
+                7.155045,
+                46.805045
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 246.02
+        },
+        {
+            "plan_coordinate:": [
+                7.155112,
+                46.805087
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 254.65
+        },
+        {
+            "plan_coordinate:": [
+                7.155353,
+                46.805833
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 318.04
+        },
+        {
+            "plan_coordinate:": [
+                7.154986,
+                46.805995
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 297.3
+        },
+        {
+            "plan_coordinate:": [
+                7.154986,
+                46.805995
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 297.3
+        },
+        {
+            "plan_coordinate:": [
+                7.154801,
+                46.806022
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 284.56
+        },
+        {
+            "plan_coordinate:": [
+                7.154659,
+                46.806084
+            ],
+            "eff_coordinate": [
+                7.153955,
+                46.805026
+            ],
+            "distance": 140.42
+        },
+        {
+            "plan_coordinate:": [
+                7.162118,
+                46.805487
+            ],
+            "eff_coordinate": [
+                7.153968,
+                46.804936
+            ],
+            "distance": 903.37
+        },
+        {
+            "plan_coordinate:": [
+                7.162118,
+                46.805487
+            ],
+            "eff_coordinate": [
+                7.153968,
+                46.804936
+            ],
+            "distance": 903.37
+        },
+        {
+            "plan_coordinate:": [
+                7.154189,
+                46.805848
+            ],
+            "eff_coordinate": [
+                7.153681,
+                46.804656
+            ],
+            "distance": 143.15
+        },
+        {
+            "plan_coordinate:": [
+                7.154281,
+                46.806498
+            ],
+            "eff_coordinate": [
+                7.154306,
+                46.805023
+            ],
+            "distance": 162.95
+        },
+        {
+            "plan_coordinate:": [
+                7.15454,
+                46.806533
+            ],
+            "eff_coordinate": [
+                7.154499,
+                46.804791
+            ],
+            "distance": 192.47
+        },
+        {
+            "plan_coordinate:": [
+                7.15454,
+                46.806533
+            ],
+            "eff_coordinate": [
+                7.154499,
+                46.804791
+            ],
+            "distance": 192.47
+        },
+        {
+            "plan_coordinate:": [
+                7.15454,
+                46.806533
+            ],
+            "eff_coordinate": [
+                7.15299,
+                46.804192
+            ],
+            "distance": 310.24
+        },
+        {
+            "plan_coordinate:": [
+                7.154268,
+                46.807421
+            ],
+            "eff_coordinate": [
+                7.154499,
+                46.804791
+            ],
+            "distance": 291.63
+        },
+        {
+            "plan_coordinate:": [
+                7.154268,
+                46.807421
+            ],
+            "eff_coordinate": [
+                7.154553,
+                46.804822
+            ],
+            "distance": 288.81
+        },
+        {
+            "plan_coordinate:": [
+                7.154268,
+                46.807421
+            ],
+            "eff_coordinate": [
+                7.155112,
+                46.805087
+            ],
+            "distance": 274.19
+        },
+        {
+            "plan_coordinate:": [
+                7.154516,
+                46.806847
+            ],
+            "eff_coordinate": [
+                7.155045,
+                46.805045
+            ],
+            "distance": 207.47
+        },
+        {
+            "plan_coordinate:": [
+                7.154516,
+                46.806847
+            ],
+            "eff_coordinate": [
+                7.155353,
+                46.805833
+            ],
+            "distance": 145.3
+        },
+        {
+            "plan_coordinate:": [
+                7.154516,
+                46.806847
+            ],
+            "eff_coordinate": [
+                7.154986,
+                46.805995
+            ],
+            "distance": 107.51
+        },
+        {
+            "plan_coordinate:": [
+                7.154979,
+                46.80714
+            ],
+            "eff_coordinate": [
+                7.154986,
+                46.805995
+            ],
+            "distance": 126.48
+        },
+        {
+            "plan_coordinate:": [
+                7.154979,
+                46.80714
+            ],
+            "eff_coordinate": [
+                7.154801,
+                46.806022
+            ],
+            "distance": 125.05
+        },
+        {
+            "plan_coordinate:": [
+                7.15517,
+                46.806508
+            ],
+            "eff_coordinate": [
+                7.154659,
+                46.806084
+            ],
+            "distance": 73.4
+        },
+        {
+            "plan_coordinate:": [
+                7.15517,
+                46.806508
+            ],
+            "eff_coordinate": [
+                7.162118,
+                46.805487
+            ],
+            "distance": 776.62
+        },
+        {
+            "plan_coordinate:": [
+                7.154955,
+                46.806509
+            ],
+            "eff_coordinate": [
+                7.162118,
+                46.805487
+            ],
+            "distance": 800.17
+        },
+        {
+            "plan_coordinate:": [
+                7.154955,
+                46.806509
+            ],
+            "eff_coordinate": [
+                7.154795,
+                46.805262
+            ],
+            "distance": 138.87
+        },
+        {
+            "plan_coordinate:": [
+                7.154955,
+                46.806509
+            ],
+            "eff_coordinate": [
+                7.154795,
+                46.805262
+            ],
+            "distance": 138.87
+        },
+        {
+            "plan_coordinate:": [
+                7.154955,
+                46.806509
+            ],
+            "eff_coordinate": [
+                7.154189,
+                46.805848
+            ],
+            "distance": 111.84
+        },
+        {
+            "plan_coordinate:": [
+                7.155535,
+                46.806914
+            ],
+            "eff_coordinate": [
+                7.153129,
+                46.807241
+            ],
+            "distance": 268.52
+        },
+        {
+            "plan_coordinate:": [
+                7.156386,
+                46.805642
+            ],
+            "eff_coordinate": [
+                7.153416,
+                46.807628
+            ],
+            "distance": 394.98
+        },
+        {
+            "plan_coordinate:": [
+                7.158047,
+                46.806828
+            ],
+            "eff_coordinate": [
+                7.153208,
+                46.808907
+            ],
+            "distance": 582.34
+        },
+        {
+            "plan_coordinate:": [
+                7.158047,
+                46.806828
+            ],
+            "eff_coordinate": [
+                7.153416,
+                46.807628
+            ],
+            "distance": 519.72
+        },
+        {
+            "plan_coordinate:": [
+                7.158047,
+                46.806828
+            ],
+            "eff_coordinate": [
+                7.153208,
+                46.808907
+            ],
+            "distance": 582.34
+        },
+        {
+            "plan_coordinate:": [
+                7.156534,
+                46.805361
+            ],
+            "eff_coordinate": [
+                7.152715,
+                46.808337
+            ],
+            "distance": 535.2
+        },
+        {
+            "plan_coordinate:": [
+                7.156534,
+                46.805361
+            ],
+            "eff_coordinate": [
+                7.153208,
+                46.808907
+            ],
+            "distance": 537.32
+        },
+        {
+            "plan_coordinate:": [
+                7.156534,
+                46.805361
+            ],
+            "eff_coordinate": [
+                7.153208,
+                46.808907
+            ],
+            "distance": 537.32
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.15263,
+                46.80857
+            ],
+            "distance": 475.22
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.154927,
+                46.804573
+            ],
+            "distance": 69.72
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.151609,
+                46.808556
+            ],
+            "distance": 549.55
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.151619,
+                46.809076
+            ],
+            "distance": 589.78
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.151619,
+                46.809076
+            ],
+            "distance": 589.78
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.150612,
+                46.809333
+            ],
+            "distance": 688.75
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.151369,
+                46.809335
+            ],
+            "distance": 629.55
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.151369,
+                46.809335
+            ],
+            "distance": 629.55
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.150652,
+                46.809662
+            ],
+            "distance": 710.58
+        },
+        {
+            "plan_coordinate:": [
+                7.155216,
+                46.805134
+            ],
+            "eff_coordinate": [
+                7.151053,
+                46.809767
+            ],
+            "distance": 688.37
+        },
+        {
+            "plan_coordinate:": [
+                7.153129,
+                46.807241
+            ],
+            "eff_coordinate": [
+                7.150526,
+                46.81001
+            ],
+            "distance": 420.02
+        },
+        {
+            "plan_coordinate:": [
+                7.153416,
+                46.807628
+            ],
+            "eff_coordinate": [
+                7.1527867676,
+                46.804597924
+            ],
+            "distance": 341.86
+        },
+        {
+            "plan_coordinate:": [
+                7.153416,
+                46.807628
+            ],
+            "eff_coordinate": [
+                7.152716,
+                46.810284
+            ],
+            "distance": 303.42
+        },
+        {
+            "plan_coordinate:": [
+                7.152715,
+                46.808337
+            ],
+            "eff_coordinate": [
+                7.152716,
+                46.810284
+            ],
+            "distance": 215.06
+        },
+        {
+            "plan_coordinate:": [
+                7.153208,
+                46.808907
+            ],
+            "eff_coordinate": [
+                7.152716,
+                46.810284
+            ],
+            "distance": 161.54
+        },
+        {
+            "plan_coordinate:": [
+                7.153208,
+                46.808907
+            ],
+            "eff_coordinate": [
+                7.152716,
+                46.810284
+            ],
+            "distance": 161.54
+        },
+        {
+            "plan_coordinate:": [
+                7.153208,
+                46.808907
+            ],
+            "eff_coordinate": [
+                7.152716,
+                46.810284
+            ],
+            "distance": 161.54
+        },
+        {
+            "plan_coordinate:": [
+                7.153208,
+                46.808907
+            ],
+            "eff_coordinate": [
+                7.152941,
+                46.809675
+            ],
+            "distance": 89.82
+        },
+        {
+            "plan_coordinate:": [
+                7.15263,
+                46.80857
+            ],
+            "eff_coordinate": [
+                7.152141,
+                46.808512
+            ],
+            "distance": 54.46
+        },
+        {
+            "plan_coordinate:": [
+                7.151283,
+                46.808278
+            ],
+            "eff_coordinate": [
+                7.152141,
+                46.808512
+            ],
+            "distance": 98.34
+        },
+        {
+            "plan_coordinate:": [
+                7.151619,
+                46.809076
+            ],
+            "eff_coordinate": [
+                7.152141,
+                46.808512
+            ],
+            "distance": 84.93
+        },
+        {
+            "plan_coordinate:": [
+                7.151619,
+                46.809076
+            ],
+            "eff_coordinate": [
+                7.152141,
+                46.808512
+            ],
+            "distance": 84.93
+        },
+        {
+            "plan_coordinate:": [
+                7.151609,
+                46.808556
+            ],
+            "eff_coordinate": [
+                7.152141,
+                46.808512
+            ],
+            "distance": 59.04
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.148415,
+                46.80968
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.148415,
+                46.80968
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.148415,
+                46.80968
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.148415,
+                46.80968
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.148415,
+                46.80968
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.148415,
+                46.80968
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.148415,
+                46.80968
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.148415,
+                46.80968
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.148415,
+                46.80968
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.148415,
+                46.80968
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 89.32
+        },
+        {
+            "plan_coordinate:": [
+                7.149734,
+                46.808299
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 196.06
+        },
+        {
+            "plan_coordinate:": [
+                7.149964,
+                46.809675
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 94.57
+        },
+        {
+            "plan_coordinate:": [
+                7.150612,
+                46.809333
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 175.26
+        },
+        {
+            "plan_coordinate:": [
+                7.150652,
+                46.809662
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 168.16
+        },
+        {
+            "plan_coordinate:": [
+                7.151053,
+                46.809767
+            ],
+            "eff_coordinate": [
+                7.149165,
+                46.80998
+            ],
+            "distance": 210.12
+        },
+        {
+            "plan_coordinate:": [
+                7.150526,
+                46.81001
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 438.99
+        },
+        {
+            "plan_coordinate:": [
+                7.152716,
+                46.810284
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 681.27
+        },
+        {
+            "plan_coordinate:": [
+                7.152716,
+                46.810284
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 681.27
+        },
+        {
+            "plan_coordinate:": [
+                7.152716,
+                46.810284
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 681.27
+        },
+        {
+            "plan_coordinate:": [
+                7.152716,
+                46.810284
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 681.27
+        },
+        {
+            "plan_coordinate:": [
+                7.152716,
+                46.810284
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 681.27
+        },
+        {
+            "plan_coordinate:": [
+                7.152941,
+                46.809675
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 707.59
+        },
+        {
+            "plan_coordinate:": [
+                7.151369,
+                46.809335
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 539.02
+        },
+        {
+            "plan_coordinate:": [
+                7.151369,
+                46.809335
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 539.02
+        },
+        {
+            "plan_coordinate:": [
+                7.152141,
+                46.808512
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 642.38
+        },
+        {
+            "plan_coordinate:": [
+                7.152141,
+                46.808512
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 642.38
+        },
+        {
+            "plan_coordinate:": [
+                7.152141,
+                46.808512
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 642.38
+        },
+        {
+            "plan_coordinate:": [
+                7.152141,
+                46.808512
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 642.38
+        },
+        {
+            "plan_coordinate:": [
+                7.152141,
+                46.808512
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 642.38
+        },
+        {
+            "plan_coordinate:": [
+                7.151291,
+                46.806801
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 638.86
+        },
+        {
+            "plan_coordinate:": [
+                7.151341,
+                46.806838
+            ],
+            "eff_coordinate": [
+                7.146558,
+                46.810117
+            ],
+            "distance": 641.08
+        },
+        {
+            "plan_coordinate:": [
+                7.151468,
+                46.806935
+            ],
+            "eff_coordinate": [
+                7.147236,
+                46.809641
+            ],
+            "distance": 555.33
+        },
+        {
+            "plan_coordinate:": [
+                7.152022,
+                46.807342
+            ],
+            "eff_coordinate": [
+                7.146882,
+                46.809719
+            ],
+            "distance": 626.15
+        },
+        {
+            "plan_coordinate:": [
+                7.151308,
+                46.807192
+            ],
+            "eff_coordinate": [
+                7.148238,
+                46.809208
+            ],
+            "distance": 406.03
+        },
+        {
+            "plan_coordinate:": [
+                7.151308,
+                46.807192
+            ],
+            "eff_coordinate": [
+                7.149734,
+                46.808299
+            ],
+            "distance": 212.73
+        },
+        {
+            "plan_coordinate:": [
+                7.151131,
+                46.807077
+            ],
+            "eff_coordinate": [
+                7.149532,
+                46.808454
+            ],
+            "distance": 233.25
+        },
+        {
+            "plan_coordinate:": [
+                7.14951,
+                46.807101
+            ],
+            "eff_coordinate": [
+                7.14951,
+                46.807101
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.14951,
+                46.807101
+            ],
+            "eff_coordinate": [
+                7.14951,
+                46.807101
+            ],
+            "distance": 0.0
+        },
+        {
+            "plan_coordinate:": [
+                7.149532,
+                46.808454
+            ],
+            "eff_coordinate": [
+                7.151283,
+                46.808278
+            ],
+            "distance": 194.62
+        },
+        {
+            "plan_coordinate:": [
+                7.148951,
+                46.808854
+            ],
+            "eff_coordinate": [
+                7.152022,
+                46.807342
+            ],
+            "distance": 378.47
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.151468,
+                46.806935
+            ],
+            "distance": 421.9
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.151341,
+                46.806838
+            ],
+            "distance": 422.33
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.151291,
+                46.806801
+            ],
+            "distance": 422.6
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.151308,
+                46.807192
+            ],
+            "distance": 388.6
+        },
+        {
+            "plan_coordinate:": [
+                7.149165,
+                46.80998
+            ],
+            "eff_coordinate": [
+                7.151308,
+                46.807192
+            ],
+            "distance": 388.6
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.151131,
+                46.807077
+            ],
+            "distance": 607.07
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.148951,
+                46.808854
+            ],
+            "distance": 299.17
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.148238,
+                46.809208
+            ],
+            "distance": 211.19
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.149964,
+                46.809675
+            ],
+            "distance": 379.83
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.143902,
+                46.809081
+            ],
+            "distance": 315.24
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.143902,
+                46.809081
+            ],
+            "distance": 315.24
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.143504,
+                46.809045
+            ],
+            "distance": 357.9
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.143504,
+                46.809045
+            ],
+            "distance": 357.9
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.143504,
+                46.809045
+            ],
+            "distance": 357.9
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.142345,
+                46.808828
+            ],
+            "distance": 487.19
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.142345,
+                46.808828
+            ],
+            "distance": 487.19
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.142345,
+                46.808828
+            ],
+            "distance": 487.19
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.140961,
+                46.808741
+            ],
+            "distance": 637.37
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.140961,
+                46.808741
+            ],
+            "distance": 637.37
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.140011,
+                46.807884
+            ],
+            "distance": 764.9
+        },
+        {
+            "plan_coordinate:": [
+                7.146558,
+                46.810117
+            ],
+            "eff_coordinate": [
+                7.141884,
+                46.808539
+            ],
+            "distance": 545.5
+        },
+        {
+            "plan_coordinate:": [
+                7.146882,
+                46.809719
+            ],
+            "eff_coordinate": [
+                7.141884,
+                46.808539
+            ],
+            "distance": 567.9
+        },
+        {
+            "plan_coordinate:": [
+                7.147236,
+                46.809641
+            ],
+            "eff_coordinate": [
+                7.141884,
+                46.808539
+            ],
+            "distance": 604.27
+        },
+        {
+            "plan_coordinate:": [
+                7.142345,
+                46.808828
+            ],
+            "eff_coordinate": [
+                7.141884,
+                46.808539
+            ],
+            "distance": 60.15
+        },
+        {
+            "plan_coordinate:": [
+                7.142345,
+                46.808828
+            ],
+            "eff_coordinate": [
+                7.142095,
+                46.808228
+            ],
+            "distance": 71.81
+        },
+        {
+            "plan_coordinate:": [
+                7.142345,
+                46.808828
+            ],
+            "eff_coordinate": [
+                7.142095,
+                46.808228
+            ],
+            "distance": 71.81
+        },
+        {
+            "plan_coordinate:": [
+                7.143504,
+                46.809045
+            ],
+            "eff_coordinate": [
+                7.142095,
+                46.808228
+            ],
+            "distance": 180.07
+        },
+        {
+            "plan_coordinate:": [
+                7.143504,
+                46.809045
+            ],
+            "eff_coordinate": [
+                7.141734,
+                46.808165
+            ],
+            "distance": 218.55
+        },
+        {
+            "plan_coordinate:": [
+                7.143504,
+                46.809045
+            ],
+            "eff_coordinate": [
+                7.141335,
+                46.808044
+            ],
+            "distance": 264.13
+        },
+        {
+            "plan_coordinate:": [
+                7.143902,
+                46.809081
+            ],
+            "eff_coordinate": [
+                7.140967,
+                46.807906
+            ],
+            "distance": 349.57
+        },
+        {
+            "plan_coordinate:": [
+                7.143902,
+                46.809081
+            ],
+            "eff_coordinate": [
+                7.142943,
+                46.808074
+            ],
+            "distance": 153.69
+        },
+        {
+            "plan_coordinate:": [
+                7.140961,
+                46.808741
+            ],
+            "eff_coordinate": [
+                7.143576,
+                46.808173
+            ],
+            "distance": 295.92
+        },
+        {
+            "plan_coordinate:": [
+                7.140961,
+                46.808741
+            ],
+            "eff_coordinate": [
+                7.143886,
+                46.8082
+            ],
+            "distance": 328.95
+        },
+        {
+            "plan_coordinate:": [
+                7.140011,
+                46.807884
+            ],
+            "eff_coordinate": [
+                7.147157,
+                46.807001
+            ],
+            "distance": 796.28
+        },
+        {
+            "plan_coordinate:": [
+                7.142095,
+                46.808228
+            ],
+            "eff_coordinate": [
+                7.147136,
+                46.807334
+            ],
+            "distance": 566.17
+        },
+        {
+            "plan_coordinate:": [
+                7.142095,
+                46.808228
+            ],
+            "eff_coordinate": [
+                7.14748,
+                46.807315
+            ],
+            "distance": 604.01
+        },
+        {
+            "plan_coordinate:": [
+                7.142095,
+                46.808228
+            ],
+            "eff_coordinate": [
+                7.14748,
+                46.807315
+            ],
+            "distance": 604.01
+        },
+        {
+            "plan_coordinate:": [
+                7.141884,
+                46.808539
+            ],
+            "eff_coordinate": [
+                7.142995,
+                46.808692
+            ],
+            "distance": 124.02
+        },
+        {
+            "plan_coordinate:": [
+                7.141884,
+                46.808539
+            ],
+            "eff_coordinate": [
+                7.1527867676,
+                46.804597924
+            ],
+            "distance": 1281.93
+        },
+        {
+            "plan_coordinate:": [
+                7.141884,
+                46.808539
+            ],
+            "eff_coordinate": [
+                7.143571,
+                46.808763
+            ],
+            "distance": 188.2
+        },
+        {
+            "plan_coordinate:": [
+                7.141884,
+                46.808539
+            ],
+            "eff_coordinate": [
+                7.143571,
+                46.808763
+            ],
+            "distance": 188.2
+        },
+        {
+            "plan_coordinate:": [
+                7.141734,
+                46.808165
+            ],
+            "eff_coordinate": [
+                7.144244,
+                46.808535
+            ],
+            "distance": 280.58
+        },
+        {
+            "plan_coordinate:": [
+                7.141335,
+                46.808044
+            ],
+            "eff_coordinate": [
+                7.145645,
+                46.808646
+            ],
+            "distance": 481.27
+        },
+        {
+            "plan_coordinate:": [
+                7.140967,
+                46.807906
+            ],
+            "eff_coordinate": [
+                7.145645,
+                46.808646
+            ],
+            "distance": 523.76
+        },
+        {
+            "plan_coordinate:": [
+                7.142943,
+                46.808074
+            ],
+            "eff_coordinate": [
+                7.145645,
+                46.808646
+            ],
+            "distance": 305.43
+        },
+        {
+            "plan_coordinate:": [
+                7.143576,
+                46.808173
+            ],
+            "eff_coordinate": [
+                7.145957,
+                46.808232
+            ],
+            "distance": 263.4
+        },
+        {
+            "plan_coordinate:": [
+                7.143886,
+                46.8082
+            ],
+            "eff_coordinate": [
+                7.146386,
+                46.808755
+            ],
+            "distance": 283.19
+        },
+        {
+            "plan_coordinate:": [
+                7.14748,
+                46.807315
+            ],
+            "eff_coordinate": [
+                7.146386,
+                46.808755
+            ],
+            "distance": 199.85
+        },
+        {
+            "plan_coordinate:": [
+                7.14748,
+                46.807315
+            ],
+            "eff_coordinate": [
+                7.146386,
+                46.808755
+            ],
+            "distance": 199.85
+        },
+        {
+            "plan_coordinate:": [
+                7.147136,
+                46.807334
+            ],
+            "eff_coordinate": [
+                7.146386,
+                46.808755
+            ],
+            "distance": 177.53
+        },
+        {
+            "plan_coordinate:": [
+                7.147157,
+                46.807001
+            ],
+            "eff_coordinate": [
+                7.139941,
+                46.808705
+            ],
+            "distance": 819.93
+        },
+        {
+            "plan_coordinate:": [
+                7.142995,
+                46.808692
+            ],
+            "eff_coordinate": [
+                7.139343,
+                46.808444
+            ],
+            "distance": 404.81
+        },
+        {
+            "plan_coordinate:": [
+                7.143571,
+                46.808763
+            ],
+            "eff_coordinate": [
+                7.139216,
+                46.809006
+            ],
+            "distance": 482.37
+        },
+        {
+            "plan_coordinate:": [
+                7.143571,
+                46.808763
+            ],
+            "eff_coordinate": [
+                7.139173,
+                46.81009
+            ],
+            "distance": 507.99
+        },
+        {
+            "plan_coordinate:": [
+                7.144244,
+                46.808535
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1270.23
+        },
+        {
+            "plan_coordinate:": [
+                7.145645,
+                46.808646
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1127.32
+        },
+        {
+            "plan_coordinate:": [
+                7.145645,
+                46.808646
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1127.32
+        },
+        {
+            "plan_coordinate:": [
+                7.145645,
+                46.808646
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1127.32
+        },
+        {
+            "plan_coordinate:": [
+                7.146386,
+                46.808755
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1055.26
+        },
+        {
+            "plan_coordinate:": [
+                7.146386,
+                46.808755
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1055.26
+        },
+        {
+            "plan_coordinate:": [
+                7.146386,
+                46.808755
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1055.26
+        },
+        {
+            "plan_coordinate:": [
+                7.146386,
+                46.808755
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1055.26
+        },
+        {
+            "plan_coordinate:": [
+                7.145957,
+                46.808232
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1079.63
+        },
+        {
+            "plan_coordinate:": [
+                7.139941,
+                46.808705
+            ],
+            "eff_coordinate": [
+                7.155216,
+                46.805134
+            ],
+            "distance": 1734.73
+        },
+        {
+            "plan_coordinate:": [
+                7.139343,
+                46.808444
+            ],
+            "eff_coordinate": [
+                7.1527867676,
+                46.804597924
+            ],
+            "distance": 1546.27
+        },
+        {
+            "plan_coordinate:": [
+                7.139216,
+                46.809006
+            ],
+            "eff_coordinate": [
+                7.1527867676,
+                46.804597924
+            ],
+            "distance": 1577.82
+        },
+        {
+            "plan_coordinate:": [
+                7.139173,
+                46.81009
+            ],
+            "eff_coordinate": [
+                7.1527867676,
+                46.804597924
+            ],
+            "distance": 1623.2
+        }
+    ],
+    "plan_total_distance": 53.800242520119475,
+    "eff_total_distance": 67.33508250955519,
+    "similarity": 0.49425287356321834
+}

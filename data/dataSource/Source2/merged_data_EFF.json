@@ -1,0 +1,2757 @@
+[
+    {
+        "identcode": 996000648204620958,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 09:54:13",
+        "EFF_DAT": "2024-10-17 10:28:26",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 7",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8838542932,
+        "recipient_latitude": 46.2916077965,
+        "polylines": {
+            "0": [
+                7.8838542932,
+                46.2916077965
+            ],
+            "1": [
+                7.88383,
+                46.2912
+            ],
+            "2": [
+                7.88388,
+                46.2912
+            ],
+            "3": [
+                7.88412,
+                46.29121
+            ],
+            "4": [
+                7.88433,
+                46.29125
+            ],
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 993711122202962927,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 09:59:17",
+        "EFF_DAT": "2024-10-17 10:31:13",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 16B",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8843670406,
+        "recipient_latitude": 46.291151495,
+        "polylines": {
+            "0": [
+                7.8843670406,
+                46.291151495
+            ],
+            "1": [
+                7.88433,
+                46.29125
+            ],
+            "2": [
+                7.88488,
+                46.29134
+            ],
+            "3": [
+                7.88496,
+                46.29121
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996012328600507889,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:01:50",
+        "EFF_DAT": "2024-10-17 10:33:24",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 20",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8847953652,
+        "recipient_latitude": 46.2911624036,
+        "polylines": {
+            "0": [
+                7.8847953652,
+                46.2911624036
+            ],
+            "1": [
+                7.88496,
+                46.29121
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994210310604149278,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:01:50",
+        "EFF_DAT": "2024-10-17 10:33:33",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 20",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8847953652,
+        "recipient_latitude": 46.2911624036,
+        "polylines": {
+            "0": [
+                7.8847953652,
+                46.2911624036
+            ],
+            "1": [
+                7.88496,
+                46.29121
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 990030002101085257,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:01:50",
+        "EFF_DAT": "2024-10-17 10:33:57",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 20",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8847953652,
+        "recipient_latitude": 46.2911624036,
+        "polylines": {
+            "0": [
+                7.8847953652,
+                46.2911624036
+            ],
+            "1": [
+                7.88496,
+                46.29121
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996015276701037877,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:01:50",
+        "EFF_DAT": "2024-10-17 10:34:03",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 20",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8847953652,
+        "recipient_latitude": 46.2911624036,
+        "polylines": {
+            "0": [
+                7.8847953652,
+                46.2911624036
+            ],
+            "1": [
+                7.88496,
+                46.29121
+            ],
+            "2": [
+                7.88488,
+                46.29134
+            ],
+            "3": [
+                7.88467,
+                46.29131
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994010486050857748,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:04:20",
+        "EFF_DAT": "2024-10-17 10:35:16",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 9A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.88466313,
+        "recipient_latitude": 46.2913365424,
+        "polylines": {
+            "0": [
+                7.88466313,
+                46.2913365424
+            ],
+            "1": [
+                7.88467,
+                46.29131
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996002075397423588,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:04:20",
+        "EFF_DAT": "2024-10-17 10:35:58",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 9A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.88466313,
+        "recipient_latitude": 46.2913365424,
+        "polylines": {
+            "0": [
+                7.88466313,
+                46.2913365424
+            ],
+            "1": [
+                7.88467,
+                46.29131
+            ],
+            "2": [
+                7.88488,
+                46.29134
+            ],
+            "3": [
+                7.88475,
+                46.29152
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996015500100054373,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:09:49",
+        "EFF_DAT": "2024-10-17 10:38:41",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 11A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8849493932,
+        "recipient_latitude": 46.2915890959,
+        "polylines": {
+            "0": [
+                7.8849493932,
+                46.2915890959
+            ],
+            "1": [
+                7.88475,
+                46.29152
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996015264800006807,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:09:49",
+        "EFF_DAT": "2024-10-17 10:38:48",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 11A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8849493932,
+        "recipient_latitude": 46.2915890959,
+        "polylines": {
+            "0": [
+                7.8849493932,
+                46.2915890959
+            ],
+            "1": [
+                7.88475,
+                46.29152
+            ],
+            "2": [
+                7.88473,
+                46.29155
+            ],
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996014383197376099,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:06:53",
+        "EFF_DAT": "2024-10-17 10:39:22",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 11B",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8849353844,
+        "recipient_latitude": 46.2916215358,
+        "polylines": {
+            "0": [
+                7.8849353844,
+                46.2916215358
+            ],
+            "1": [
+                7.88473,
+                46.29155
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996002075397406681,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:06:53",
+        "EFF_DAT": "2024-10-17 10:40:30",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 11B",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8849353844,
+        "recipient_latitude": 46.2916215358,
+        "polylines": {
+            "0": [
+                7.8849353844,
+                46.2916215358
+            ],
+            "1": [
+                7.88473,
+                46.29155
+            ],
+            "2": [
+                7.88488,
+                46.29134
+            ],
+            "3": [
+                7.8854,
+                46.29144
+            ],
+            "4": [
+                7.88625,
+                46.2916
+            ],
+            "5": [
+                7.88634,
+                46.29139
+            ],
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996014383197378081,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:21:46",
+        "EFF_DAT": "2024-10-17 10:43:21",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 28",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8866131695,
+        "recipient_latitude": 46.291447595,
+        "polylines": {
+            "0": [
+                7.8866131695,
+                46.291447595
+            ],
+            "1": [
+                7.88634,
+                46.29139
+            ],
+            "2": [
+                7.88625,
+                46.2916
+            ],
+            "3": [
+                7.88663,
+                46.29167
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996012872921276133,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:17:46",
+        "EFF_DAT": "2024-10-17 10:44:15",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 28A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8867131624,
+        "recipient_latitude": 46.2914561954,
+        "polylines": {
+            "0": [
+                7.8867131624,
+                46.2914561954
+            ],
+            "1": [
+                7.88663,
+                46.29167
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996013505601868086,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:17:46",
+        "EFF_DAT": "2024-10-17 10:44:34",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 28A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8867131624,
+        "recipient_latitude": 46.2914561954,
+        "polylines": {
+            "0": [
+                7.8867131624,
+                46.2914561954
+            ],
+            "1": [
+                7.88663,
+                46.29167
+            ],
+            "2": [
+                7.88625,
+                46.2916
+            ],
+            "3": [
+                7.88656,
+                46.29091
+            ],
+            "4": [
+                7.88662,
+                46.29081
+            ],
+            "5": [
+                7.88671,
+                46.29082
+            ],
+            "6": [
+                7.88718,
+                46.29106
+            ],
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 993711122202963178,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:14:12",
+        "EFF_DAT": "2024-10-17 10:48:31",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 28B",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8869659314,
+        "recipient_latitude": 46.2912644855,
+        "polylines": {
+            "0": [
+                7.8869659314,
+                46.2912644855
+            ],
+            "1": [
+                7.88718,
+                46.29106
+            ],
+            "2": [
+                7.88671,
+                46.29082
+            ],
+            "3": [
+                7.88662,
+                46.29081
+            ],
+            "4": [
+                7.88656,
+                46.29091
+            ],
+            "5": [
+                7.88625,
+                46.2916
+            ],
+            "6": [
+                7.88598,
+                46.29155
+            ],
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996013537320804685,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:27:16",
+        "EFF_DAT": "2024-10-17 10:52:10",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 17",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8859565773,
+        "recipient_latitude": 46.2916103131,
+        "polylines": {
+            "0": [
+                7.8859565773,
+                46.2916103131
+            ],
+            "1": [
+                7.88598,
+                46.29155
+            ],
+            "2": [
+                7.88625,
+                46.2916
+            ],
+            "3": [
+                7.88644,
+                46.29117
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996013537320806255,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:34:43",
+        "EFF_DAT": "2024-10-17 10:52:52",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 26",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8858896876,
+        "recipient_latitude": 46.291050141,
+        "polylines": {
+            "0": [
+                7.8858896876,
+                46.291050141
+            ],
+            "1": [
+                7.88644,
+                46.29117
+            ],
+            "2": [
+                7.88625,
+                46.2916
+            ],
+            "3": [
+                7.88566,
+                46.29149
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996002075397411206,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:29:29",
+        "EFF_DAT": "2024-10-17 10:54:13",
+        "SND_EMPF_STRASSE": "Napoleonstrasse 15",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8856292295,
+        "recipient_latitude": 46.2915702242,
+        "polylines": {
+            "0": [
+                7.8856292295,
+                46.2915702242
+            ],
+            "1": [
+                7.88566,
+                46.29149
+            ],
+            "2": [
+                7.8854,
+                46.29144
+            ],
+            "3": [
+                7.88488,
+                46.29134
+            ],
+            "4": [
+                7.88514,
+                46.29088
+            ],
+            "5": [
+                7.88542,
+                46.29037
+            ],
+            "6": [
+                7.88612,
+                46.29058
+            ],
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996009834404294663,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:48:35",
+        "EFF_DAT": "2024-10-17 10:56:24",
+        "SND_EMPF_STRASSE": "Mühlackerstrasse 1",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8860156044,
+        "recipient_latitude": 46.2907392901,
+        "polylines": {
+            "0": [
+                7.8860156044,
+                46.2907392901
+            ],
+            "1": [
+                7.88612,
+                46.29058
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996000150084965736,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:48:35",
+        "EFF_DAT": "2024-10-17 10:56:36",
+        "SND_EMPF_STRASSE": "Mühlackerstrasse 1",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8860156044,
+        "recipient_latitude": 46.2907392901,
+        "polylines": {
+            "0": [
+                7.8860156044,
+                46.2907392901
+            ],
+            "1": [
+                7.88612,
+                46.29058
+            ],
+            "2": [
+                7.88624,
+                46.29062
+            ],
+            "3": [
+                7.88651,
+                46.29074
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996016050403818294,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:45:38",
+        "EFF_DAT": "2024-10-17 11:00:36",
+        "SND_EMPF_STRASSE": "Haselstrasse 6",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8864354048,
+        "recipient_latitude": 46.290818594,
+        "polylines": {
+            "0": [
+                7.8864354048,
+                46.290818594
+            ],
+            "1": [
+                7.88651,
+                46.29074
+            ],
+            "2": [
+                7.88657,
+                46.29076
+            ],
+            "3": [
+                7.88662,
+                46.29081
+            ],
+            "4": [
+                7.88656,
+                46.29091
+            ],
+            "5": [
+                7.88647,
+                46.29109
+            ],
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996011723000263920,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:43:08",
+        "EFF_DAT": "2024-10-17 11:02:31",
+        "SND_EMPF_STRASSE": "Haselstrasse 3",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8866650732,
+        "recipient_latitude": 46.2911316384,
+        "polylines": {
+            "0": [
+                7.8866650732,
+                46.2911316384
+            ],
+            "1": [
+                7.88647,
+                46.29109
+            ],
+            "2": [
+                7.88642,
+                46.29121
+            ],
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996014593210495682,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:40:18",
+        "EFF_DAT": "2024-10-17 11:03:30",
+        "SND_EMPF_STRASSE": "Haselstrasse 4",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886256701,
+        "recipient_latitude": 46.2911800301,
+        "polylines": {
+            "0": [
+                7.886256701,
+                46.2911800301
+            ],
+            "1": [
+                7.88642,
+                46.29121
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996002075397423101,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:40:18",
+        "EFF_DAT": "2024-10-17 11:03:43",
+        "SND_EMPF_STRASSE": "Haselstrasse 4",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886256701,
+        "recipient_latitude": 46.2911800301,
+        "polylines": {
+            "0": [
+                7.886256701,
+                46.2911800301
+            ],
+            "1": [
+                7.88642,
+                46.29121
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996012592200126077,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:40:18",
+        "EFF_DAT": "2024-10-17 11:03:58",
+        "SND_EMPF_STRASSE": "Haselstrasse 4",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886256701,
+        "recipient_latitude": 46.2911800301,
+        "polylines": {
+            "0": [
+                7.886256701,
+                46.2911800301
+            ],
+            "1": [
+                7.88642,
+                46.29121
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994210310604148745,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:40:18",
+        "EFF_DAT": "2024-10-17 11:04:02",
+        "SND_EMPF_STRASSE": "Haselstrasse 4",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886256701,
+        "recipient_latitude": 46.2911800301,
+        "polylines": {
+            "0": [
+                7.886256701,
+                46.2911800301
+            ],
+            "1": [
+                7.88642,
+                46.29121
+            ],
+            "2": [
+                7.88656,
+                46.29091
+            ],
+            "3": [
+                7.88662,
+                46.29081
+            ],
+            "4": [
+                7.88671,
+                46.29082
+            ],
+            "5": [
+                7.88724,
+                46.29109
+            ],
+            "6": [
+                7.8873,
+                46.29106
+            ],
+            "7": [
+                7.88751,
+                46.29107
+            ],
+            "8": [
+                7.8876,
+                46.29106
+            ],
+            "9": [
+                7.88787,
+                46.29089
+            ],
+            "10": [
+                7.88796,
+                46.29088
+            ],
+            "11": [
+                7.88813,
+                46.29089
+            ],
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996014188900239828,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:57:23",
+        "EFF_DAT": "2024-10-17 11:23:10",
+        "SND_EMPF_STRASSE": "Mühlackerstrasse 26",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.888114136,
+        "recipient_latitude": 46.2910773233,
+        "polylines": {
+            "0": [
+                7.888114136,
+                46.2910773233
+            ],
+            "1": [
+                7.88813,
+                46.29089
+            ],
+            "2": [
+                7.88796,
+                46.29088
+            ],
+            "3": [
+                7.88787,
+                46.29089
+            ],
+            "4": [
+                7.8876,
+                46.29106
+            ],
+            "5": [
+                7.88751,
+                46.29107
+            ],
+            "6": [
+                7.8873,
+                46.29106
+            ],
+            "7": [
+                7.88724,
+                46.29109
+            ],
+            "8": [
+                7.88745,
+                46.29117
+            ],
+            "9": [
+                7.88772,
+                46.29123
+            ],
+            "10": [
+                7.88801,
+                46.29127
+            ],
+            "11": [
+                7.88878,
+                46.29131
+            ],
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996008376529429606,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 12:04:19",
+        "EFF_DAT": "2024-10-17 11:26:55",
+        "SND_EMPF_STRASSE": "Mühlackerstrasse 30",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8888334814,
+        "recipient_latitude": 46.2911293422,
+        "polylines": {
+            "0": [
+                7.8888334814,
+                46.2911293422
+            ],
+            "1": [
+                7.88878,
+                46.29131
+            ],
+            "2": [
+                7.88801,
+                46.29127
+            ],
+            "3": [
+                7.88782,
+                46.29183
+            ],
+            "4": [
+                7.88741,
+                46.2918
+            ],
+            "5": [
+                7.8871,
+                46.29176
+            ],
+            "6": [
+                7.88693,
+                46.29177
+            ],
+            "7": [
+                7.88696,
+                46.29181
+            ],
+            "8": [
+                7.88697,
+                46.2919
+            ],
+            "9": [
+                7.88701,
+                46.2919
+            ],
+            "10": [
+                7.88709,
+                46.29192
+            ],
+            "11": [
+                7.88713,
+                46.29198
+            ],
+            "12": [
+                7.88712,
+                46.29204
+            ],
+            "13": [
+                7.88709,
+                46.29207
+            ],
+            "14": [
+                7.88699,
+                46.2921
+            ],
+            "15": [
+                7.8869,
+                46.29207
+            ],
+            "16": [
+                7.88678,
+                46.2922
+            ],
+            "17": [
+                7.88664,
+                46.29234
+            ],
+            "18": [
+                7.88647,
+                46.29278
+            ],
+            "19": null
+        }
+    },
+    {
+        "identcode": 996013587900773910,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:09:30",
+        "EFF_DAT": "2024-10-17 11:30:33",
+        "SND_EMPF_STRASSE": "Litternaring 12",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8862734444,
+        "recipient_latitude": 46.292743428,
+        "polylines": {
+            "0": [
+                7.8862734444,
+                46.292743428
+            ],
+            "1": [
+                7.88647,
+                46.29278
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996013587900771456,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:09:30",
+        "EFF_DAT": "2024-10-17 11:30:44",
+        "SND_EMPF_STRASSE": "Litternaring 12",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8862734444,
+        "recipient_latitude": 46.292743428,
+        "polylines": {
+            "0": [
+                7.8862734444,
+                46.292743428
+            ],
+            "1": [
+                7.88647,
+                46.29278
+            ],
+            "2": [
+                7.88664,
+                46.29234
+            ],
+            "3": [
+                7.88678,
+                46.2922
+            ],
+            "4": [
+                7.8869,
+                46.29207
+            ],
+            "5": [
+                7.88687,
+                46.29205
+            ],
+            "6": [
+                7.88684,
+                46.292
+            ],
+            "7": [
+                7.88659,
+                46.292
+            ],
+            "8": [
+                7.88515,
+                46.29212
+            ],
+            "9": [
+                7.88511,
+                46.29264
+            ],
+            "10": [
+                7.8853,
+                46.29259
+            ],
+            "11": [
+                7.88548,
+                46.29256
+            ],
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994210310604147920,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:52:24",
+        "EFF_DAT": "2024-10-17 11:34:34",
+        "SND_EMPF_STRASSE": "Litternaring 8",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8857094859,
+        "recipient_latitude": 46.2928104236,
+        "polylines": {
+            "0": [
+                7.8857094859,
+                46.2928104236
+            ],
+            "1": [
+                7.88548,
+                46.29256
+            ],
+            "2": [
+                7.8853,
+                46.29259
+            ],
+            "3": [
+                7.88511,
+                46.29264
+            ],
+            "4": [
+                7.88505,
+                46.29283
+            ],
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994010486050399489,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:45:41",
+        "EFF_DAT": "2024-10-17 11:35:35",
+        "SND_EMPF_STRASSE": "Litternaring 10",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8852596114,
+        "recipient_latitude": 46.2928634732,
+        "polylines": {
+            "0": [
+                7.8852596114,
+                46.2928634732
+            ],
+            "1": [
+                7.88505,
+                46.29283
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996014383197372100,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:45:41",
+        "EFF_DAT": "2024-10-17 11:35:44",
+        "SND_EMPF_STRASSE": "Litternaring 10",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8852596114,
+        "recipient_latitude": 46.2928634732,
+        "polylines": {
+            "0": [
+                7.8852596114,
+                46.2928634732
+            ],
+            "1": [
+                7.88505,
+                46.29283
+            ],
+            "2": [
+                7.88511,
+                46.29264
+            ],
+            "3": [
+                7.88515,
+                46.29212
+            ],
+            "4": [
+                7.88441,
+                46.29219
+            ],
+            "5": [
+                7.88441,
+                46.29222
+            ],
+            "6": [
+                7.88437,
+                46.29227
+            ],
+            "7": [
+                7.88429,
+                46.29229
+            ],
+            "8": [
+                7.88421,
+                46.29228
+            ],
+            "9": [
+                7.88416,
+                46.29231
+            ],
+            "10": [
+                7.88373,
+                46.29291
+            ],
+            "11": [
+                7.88327,
+                46.29354
+            ],
+            "12": [
+                7.8832,
+                46.29358
+            ],
+            "13": [
+                7.88382,
+                46.29373
+            ],
+            "14": [
+                7.88419,
+                46.29377
+            ],
+            "15": [
+                7.88478,
+                46.29378
+            ],
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996008760806411504,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:37:28",
+        "EFF_DAT": "2024-10-17 11:37:05",
+        "SND_EMPF_STRASSE": "Bäretstrasse 6",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8847816854,
+        "recipient_latitude": 46.2936111045,
+        "polylines": {
+            "0": [
+                7.8847816854,
+                46.2936111045
+            ],
+            "1": [
+                7.88478,
+                46.29378
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996015025900265833,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:37:28",
+        "EFF_DAT": "2024-10-17 11:37:11",
+        "SND_EMPF_STRASSE": "Bäretstrasse 6",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8847816854,
+        "recipient_latitude": 46.2936111045,
+        "polylines": {
+            "0": [
+                7.8847816854,
+                46.2936111045
+            ],
+            "1": [
+                7.88478,
+                46.29378
+            ],
+            "2": [
+                7.88523,
+                46.29379
+            ],
+            "3": [
+                7.88527,
+                46.29379
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996014166222760273,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:40:02",
+        "EFF_DAT": "2024-10-17 11:38:14",
+        "SND_EMPF_STRASSE": "Bäretstrasse 8",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8852561565,
+        "recipient_latitude": 46.2935498636,
+        "polylines": {
+            "0": [
+                7.8852561565,
+                46.2935498636
+            ],
+            "1": [
+                7.88527,
+                46.29379
+            ],
+            "2": [
+                7.88523,
+                46.29379
+            ],
+            "3": [
+                7.88419,
+                46.29377
+            ],
+            "4": [
+                7.88382,
+                46.29373
+            ],
+            "5": [
+                7.8832,
+                46.29358
+            ],
+            "6": [
+                7.88327,
+                46.29354
+            ],
+            "7": [
+                7.88373,
+                46.29291
+            ],
+            "8": [
+                7.88416,
+                46.29231
+            ],
+            "9": [
+                7.88421,
+                46.29228
+            ],
+            "10": [
+                7.88416,
+                46.29221
+            ],
+            "11": [
+                7.88421,
+                46.29214
+            ],
+            "12": [
+                7.88432,
+                46.29212
+            ],
+            "13": [
+                7.88438,
+                46.29215
+            ],
+            "14": [
+                7.88441,
+                46.29219
+            ],
+            "15": [
+                7.88515,
+                46.29212
+            ],
+            "16": [
+                7.88511,
+                46.29264
+            ],
+            "17": [
+                7.88505,
+                46.29286
+            ],
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996015754700003734,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:42:55",
+        "EFF_DAT": "2024-10-17 11:39:25",
+        "SND_EMPF_STRASSE": "Bäretstrasse 8A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8854994786,
+        "recipient_latitude": 46.2931539904,
+        "polylines": {
+            "0": [
+                7.8854994786,
+                46.2931539904
+            ],
+            "1": [
+                7.88505,
+                46.29286
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996010941600375511,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:42:55",
+        "EFF_DAT": "2024-10-17 11:40:09",
+        "SND_EMPF_STRASSE": "Bäretstrasse 8A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8854994786,
+        "recipient_latitude": 46.2931539904,
+        "polylines": {
+            "0": [
+                7.8854994786,
+                46.2931539904
+            ],
+            "1": [
+                7.88505,
+                46.29286
+            ],
+            "2": [
+                7.88511,
+                46.29264
+            ],
+            "3": [
+                7.88515,
+                46.29212
+            ],
+            "4": [
+                7.88659,
+                46.292
+            ],
+            "5": [
+                7.88684,
+                46.292
+            ],
+            "6": [
+                7.88689,
+                46.29192
+            ],
+            "7": [
+                7.88697,
+                46.2919
+            ],
+            "8": [
+                7.88701,
+                46.2919
+            ],
+            "9": [
+                7.88709,
+                46.29192
+            ],
+            "10": [
+                7.88713,
+                46.29198
+            ],
+            "11": [
+                7.88712,
+                46.29204
+            ],
+            "12": [
+                7.88709,
+                46.29207
+            ],
+            "13": [
+                7.88699,
+                46.2921
+            ],
+            "14": [
+                7.8869,
+                46.29207
+            ],
+            "15": [
+                7.88678,
+                46.2922
+            ],
+            "16": [
+                7.88664,
+                46.29234
+            ],
+            "17": [
+                7.88643,
+                46.29288
+            ],
+            "18": [
+                7.88614,
+                46.29345
+            ],
+            "19": [
+                7.8861,
+                46.29352
+            ]
+        }
+    },
+    {
+        "identcode": 996011507330096902,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:34:57",
+        "EFF_DAT": "2024-10-17 11:42:48",
+        "SND_EMPF_STRASSE": "Litternaring 2",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8857820321,
+        "recipient_latitude": 46.2934272468,
+        "polylines": {
+            "0": [
+                7.8857820321,
+                46.2934272468
+            ],
+            "1": [
+                7.8861,
+                46.29352
+            ],
+            "2": [
+                7.88614,
+                46.29345
+            ],
+            "3": [
+                7.88626,
+                46.29322
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996008376529435026,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:59:36",
+        "EFF_DAT": "2024-10-17 11:47:42",
+        "SND_EMPF_STRASSE": "Litternaring 1",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886437349,
+        "recipient_latitude": 46.2932645348,
+        "polylines": {
+            "0": [
+                7.886437349,
+                46.2932645348
+            ],
+            "1": [
+                7.88626,
+                46.29322
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996007791552668028,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:59:36",
+        "EFF_DAT": "2024-10-17 11:47:59",
+        "SND_EMPF_STRASSE": "Litternaring 1",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886437349,
+        "recipient_latitude": 46.2932645348,
+        "polylines": {
+            "0": [
+                7.886437349,
+                46.2932645348
+            ],
+            "1": [
+                7.88626,
+                46.29322
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996001082621743528,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:59:36",
+        "EFF_DAT": "2024-10-17 11:48:14",
+        "SND_EMPF_STRASSE": "Litternaring 1",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886437349,
+        "recipient_latitude": 46.2932645348,
+        "polylines": {
+            "0": [
+                7.886437349,
+                46.2932645348
+            ],
+            "1": [
+                7.88626,
+                46.29322
+            ],
+            "2": [
+                7.88614,
+                46.29345
+            ],
+            "3": [
+                7.88604,
+                46.29362
+            ],
+            "4": [
+                7.88601,
+                46.29377
+            ],
+            "5": [
+                7.88672,
+                46.29376
+            ],
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996013537320797615,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:03:40",
+        "EFF_DAT": "2024-10-17 11:51:32",
+        "SND_EMPF_STRASSE": "Bäretstrasse 10",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8867143617,
+        "recipient_latitude": 46.2934946311,
+        "polylines": {
+            "0": [
+                7.8867143617,
+                46.2934946311
+            ],
+            "1": [
+                7.88672,
+                46.29376
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994410411400496925,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:03:40",
+        "EFF_DAT": "2024-10-17 11:53:19",
+        "SND_EMPF_STRASSE": "Bäretstrasse 10",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8867143617,
+        "recipient_latitude": 46.2934946311,
+        "polylines": {
+            "0": [
+                7.8867143617,
+                46.2934946311
+            ],
+            "1": [
+                7.88672,
+                46.29376
+            ],
+            "2": [
+                7.88601,
+                46.29377
+            ],
+            "3": [
+                7.88604,
+                46.29362
+            ],
+            "4": [
+                7.88614,
+                46.29345
+            ],
+            "5": [
+                7.88635,
+                46.29304
+            ],
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996015025900264780,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:06:56",
+        "EFF_DAT": "2024-10-17 11:54:51",
+        "SND_EMPF_STRASSE": "Bäretstrasse 14",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.886841318,
+        "recipient_latitude": 46.29315229,
+        "polylines": {
+            "0": [
+                7.886841318,
+                46.29315229
+            ],
+            "1": [
+                7.88635,
+                46.29304
+            ],
+            "2": [
+                7.88614,
+                46.29345
+            ],
+            "3": [
+                7.88604,
+                46.29362
+            ],
+            "4": [
+                7.88601,
+                46.29377
+            ],
+            "5": [
+                7.88523,
+                46.29379
+            ],
+            "6": [
+                7.88419,
+                46.29377
+            ],
+            "7": [
+                7.88382,
+                46.29373
+            ],
+            "8": [
+                7.88368,
+                46.29369
+            ],
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996000070012442675,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:23:01",
+        "EFF_DAT": "2024-10-17 12:29:22",
+        "SND_EMPF_STRASSE": "Bäretstrasse 2A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8837571167,
+        "recipient_latitude": 46.2935314725,
+        "polylines": {
+            "0": [
+                7.8837571167,
+                46.2935314725
+            ],
+            "1": [
+                7.88368,
+                46.29369
+            ],
+            "2": [
+                7.88382,
+                46.29373
+            ],
+            "3": [
+                7.88419,
+                46.29377
+            ],
+            "4": [
+                7.88439,
+                46.29377
+            ],
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996002075397419693,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:28:09",
+        "EFF_DAT": "2024-10-17 12:31:23",
+        "SND_EMPF_STRASSE": "Bäretstrasse 4",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8844003311,
+        "recipient_latitude": 46.2936332953,
+        "polylines": {
+            "0": [
+                7.8844003311,
+                46.2936332953
+            ],
+            "1": [
+                7.88439,
+                46.29377
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 993810161499359050,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:28:09",
+        "EFF_DAT": "2024-10-17 12:31:27",
+        "SND_EMPF_STRASSE": "Bäretstrasse 4",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8844003311,
+        "recipient_latitude": 46.2936332953,
+        "polylines": {
+            "0": [
+                7.8844003311,
+                46.2936332953
+            ],
+            "1": [
+                7.88439,
+                46.29377
+            ],
+            "2": [
+                7.88419,
+                46.29377
+            ],
+            "3": [
+                7.88382,
+                46.29373
+            ],
+            "4": [
+                7.8832,
+                46.29358
+            ],
+            "5": [
+                7.88327,
+                46.29354
+            ],
+            "6": [
+                7.88373,
+                46.29291
+            ],
+            "7": [
+                7.88432,
+                46.29292
+            ],
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996008777300724328,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:18:46",
+        "EFF_DAT": "2024-10-17 12:32:42",
+        "SND_EMPF_STRASSE": "Terbinerstrasse 1",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8843150129,
+        "recipient_latitude": 46.2931982358,
+        "polylines": {
+            "0": [
+                7.8843150129,
+                46.2931982358
+            ],
+            "1": [
+                7.88432,
+                46.29292
+            ],
+            "2": [
+                7.88373,
+                46.29291
+            ],
+            "3": [
+                7.88361,
+                46.29308
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996000024500685823,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:21:23",
+        "EFF_DAT": "2024-10-17 12:36:17",
+        "SND_EMPF_STRASSE": "Terbinerstrasse 5",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8839646735,
+        "recipient_latitude": 46.2932041109,
+        "polylines": {
+            "0": [
+                7.8839646735,
+                46.2932041109
+            ],
+            "1": [
+                7.88361,
+                46.29308
+            ],
+            "2": [
+                7.88373,
+                46.29291
+            ],
+            "3": [
+                7.88393,
+                46.29263
+            ],
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 993711048200196398,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:14:14",
+        "EFF_DAT": "2024-10-17 12:38:28",
+        "SND_EMPF_STRASSE": "Terbinerstrasse 5A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8840290736,
+        "recipient_latitude": 46.2926686099,
+        "polylines": {
+            "0": [
+                7.8840290736,
+                46.2926686099
+            ],
+            "1": [
+                7.88393,
+                46.29263
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996011578511263882,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:14:14",
+        "EFF_DAT": "2024-10-17 12:38:49",
+        "SND_EMPF_STRASSE": "Terbinerstrasse 5A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8840290736,
+        "recipient_latitude": 46.2926686099,
+        "polylines": {
+            "0": [
+                7.8840290736,
+                46.2926686099
+            ],
+            "1": [
+                7.88393,
+                46.29263
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 994212690910905869,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 10:14:14",
+        "EFF_DAT": "2024-10-17 12:39:13",
+        "SND_EMPF_STRASSE": "Terbinerstrasse 5A",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8840290736,
+        "recipient_latitude": 46.2926686099,
+        "polylines": {
+            "0": [
+                7.8840290736,
+                46.2926686099
+            ],
+            "1": [
+                7.88393,
+                46.29263
+            ],
+            "2": [
+                7.88416,
+                46.29231
+            ],
+            "3": [
+                7.88421,
+                46.29228
+            ],
+            "4": [
+                7.88416,
+                46.29221
+            ],
+            "5": [
+                7.88421,
+                46.29214
+            ],
+            "6": [
+                7.88432,
+                46.29212
+            ],
+            "7": [
+                7.88488,
+                46.29134
+            ],
+            "8": [
+                7.88514,
+                46.29088
+            ],
+            "9": [
+                7.88542,
+                46.29037
+            ],
+            "10": [
+                7.88624,
+                46.29062
+            ],
+            "11": [
+                7.88657,
+                46.29076
+            ],
+            "12": [
+                7.88662,
+                46.29081
+            ],
+            "13": [
+                7.88671,
+                46.29082
+            ],
+            "14": [
+                7.88685,
+                46.29089
+            ],
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    },
+    {
+        "identcode": 996002550179355739,
+        "PLZ_ZUST": 196370,
+        "BEZIRK": 416,
+        "PLAN_DAT": "2024-10-17 11:51:51",
+        "EFF_DAT": "2024-10-17 14:08:56",
+        "SND_EMPF_STRASSE": "Mühlackerstrasse 10",
+        "SND_EMPF_PLZZZ": 393000,
+        "SND_EMPF_ORT": "Visp",
+        "recipient_longitude": 7.8869375441,
+        "recipient_latitude": 46.2908112113,
+        "polylines": {
+            "0": [
+                7.8869375441,
+                46.2908112113
+            ],
+            "1": [
+                7.88685,
+                46.29089
+            ],
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null
+        }
+    }
+]

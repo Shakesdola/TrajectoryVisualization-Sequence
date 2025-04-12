@@ -1,0 +1,45 @@
+<div class="helpText">
+    The timeline follows the <strong>planned</strong> delivery order.
+</div>
+<div class="helpText"> Grey shadow
+    <div class="dot" style="background-color: rgb(142, 140, 140);"></div>
+    represents planned delivery time, with a ±15-minute window.
+</div>
+<div class="helpText"> Blue dot
+    <div class="dot" style="background-color: rgb(99, 157, 224);"></div>
+    represents effective delivery time.
+</div>
+<div class="helpText">
+    You can click anywhere on the timeline to directly control the animation and adjust its progress.
+</div>
+<div class="helpText">
+    To view detailed information about the delivery, click on the color block on the map.
+</div>
+
+
+
+<!-- 弹窗内容 -->
+<div id="helpModal1">
+    <div class="helpTitle">Spatial Distance Chart</div>
+    <div class="helpText">
+        X: Delivery Sequence.<br>
+        Y: Deviation Level - shows the spatial distance between the planned and the actual delivery locations for the same order. <br>
+    </div>
+    <div class="helpText">
+        <div class="dot" style="background-color: red;"></div>
+         High Deviation (>1000m)<br>
+         <div class="dot" style="background-color: orange;"></div>
+         Medium Deviation (500~1000m)<br>
+         <div class="dot" style="background-color: yellow;"></div>
+         Low Deviation (200m~500m)<br>
+         <div class="dot" style="background-color: green;"></div>
+         On Track (<200m)<br>
+    </div>
+
+    <div class="helpText">
+        The graph provide a visual way to compare at each order, how far the postman was from where he was supposed to be. The goal is to have as many deliveries as possible "On Track" or with "Small Deviation."
+     </div>
+     <div id="button-container">
+        <button onclick="closeHelpModal1()">×</button>
+    </div>
+</div>
