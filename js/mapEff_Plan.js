@@ -412,13 +412,34 @@ function loadDataTrajectory() {
         // // 设置滑块的最大值
         // document.getElementById('playbarSlider').max = maxLength - 1;
 
-        // 更新地图中心
+        // // 更新地图中心
+        // const combinedFeatures = {
+        //     type: 'FeatureCollection',
+        //     features: [...planData.features, ...effData.features]
+        // };
+        // const center = turf.center(combinedFeatures);
+        // map.setCenter(center.geometry.coordinates);
+
+        // Combine features
         const combinedFeatures = {
             type: 'FeatureCollection',
             features: [...planData.features, ...effData.features]
         };
-        const center = turf.center(combinedFeatures);
-        map.setCenter(center.geometry.coordinates);
+
+        // Calculate bounding box
+        const bbox = turf.bbox(combinedFeatures);
+
+        // Convert bbox to mapbox bounds format [sw, ne]
+        const bounds = [
+            [bbox[0], bbox[1]], // southwest corner
+            [bbox[2], bbox[3]]  // northeast corner
+        ];
+
+        // Fit map to bounds with optional padding
+        map.fitBounds(bounds, {
+            padding: 20, // optional padding in pixels
+            maxZoom: 15,  // optional maximum zoom level
+        });
 
         // 更新图层
         updateLayers();
@@ -566,6 +587,8 @@ function loadDataParcel() {
             map.on('mouseleave', 'parcel-markers', () => {
                 map.getCanvas().style.cursor = '';
             });
+
+            map.moveLayer('parcel-markers');
 
 
             const region = data[0].SND_EMPF_ORT;
